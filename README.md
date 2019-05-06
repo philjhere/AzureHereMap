@@ -2,7 +2,7 @@
 
 In this workshop you will deploy a simple web application that enables users to track the fleet of Contoso Corp. and allows to monitor various engine parameters on HTML using graphical representation. The application allows users to generate various engine parameters and location parameters which are used for fleet tracking and fleet health management. 
 
-The application architecture uses Azure ARM templates, Azure Serverless Functions, Azure PowerShell and Azure Cosmos DB. A webapp based on node.js will be deployed to view the results on web browser. A node.js based producer script allows users to generate the dummy data. It also calls HERE geocoder serverless function to fetch the address of corresponding to a latitude and longitude combination which is stored in Cosmos DB. 
+The application architecture uses [Azure ARM templates](https://docs.microsoft.com/en-us/azure/azure-resource-manager/resource-manager-quickstart-create-templates-use-the-portal), [Azure Event Hub] (https://docs.microsoft.com/en-us/azure/event-hubs/), [Azure Serverless Functions](https://azure.microsoft.com/en-in/services/functions/), [Azure PowerShell](https://docs.microsoft.com/en-us/powershell/azure/overview?view=azps-1.8.0), [Azure Cosmos DB](https://azure.microsoft.com/en-in/services/cosmos-db/) and [Azure Web App](https://azure.microsoft.com/en-in/services/app-service/web). A webapp based on node.js will be deployed to view the results on web browser. A node.js based producer script allows users to generate the dummy data. It also calls HERE geocoder serverless function to fetch the address of corresponding to a latitude and longitude combination which is stored in Cosmos DB. 
 
 See the diagram below for a depiction of the complete architecture. 
 
