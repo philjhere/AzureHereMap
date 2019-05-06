@@ -112,4 +112,64 @@ The below steps help you deploy HERE Maps & Locations Services Data Streams Temp
 
 
 
+## 3. Get Configuration Details
+
+In this step you will find the connection string details of Event Hub & Cosmos DB to configure in the upcoming modules.  
+
+<details>
+<summary><strong>Step-by-step instructions (expand for details)</strong></summary><p>
+	
+1. Open the Azure portal home page
+ 
+2. Select **Resource groups** on the left navigational menu.
+	
+1. Select the **Resource group** which you used to deploy the **ARM Template** in the previous step
+
+	![HERE Maps & Location Services Data Streams Pricing Page](../Images/11_ResourceGroup_ResourceList.png)
+
+1. You will be getting the list of resources which you created using **ARM template**.
+
+	![HERE Maps & Locations Services Data Streams Azure Portal Page](../Images/12_ResourceSelection.png)
+	
+1. Select Azure **Cosmos DB** in the list
+
+	![Template Deployment Page -  Basic Section](../Images/13_ResourceSelection_CosmosDB.png)
+	
+1. In the selected **Azure Cosmos DB account** page select **Keys** in left menu under **Settings**
+
+	![Template Deployment Page – HERE Credentials Section](../Images/14_ResourceSelection_CosmosDB_Keys.png)
+	
+		
+1. Copy the **URI** & **Primary Key** and note that in a text editor to use in upcoming modules.
+
+	
+1. Now go back to the **Resource groups** on the left navigational menuto get **Event Hub** Connection String details.
+
+	
+1. Select the **Resource group** which you used to deploy the **ARM Template** in the previous step .
+
+	![HERE Maps & Location Services Data Streams Template Deployed](../Images/15_ResourceSelection_EventHub.png)
+	
+1. Select **Event Hubs** in the list
+
+		
+	
+1. On the **Event Hubs Namespace** page, select **Shared Access Policies** on the left menu
+
+	![HERE Maps & Location Services Data Streams Template Deployed](../Images/16_ResourceSelection_EventHub_SAP.png)
+
+1. Select a **shared access policy** in the list of policies. The default one is named: **RootManageSharedAccessPolicy**. You can add a policy with appropriate permissions (read, write), and use that policy
+
+	![HERE Maps & Location Services Data Streams Template Deployed](../Images/17_ResourceSelection_EventHub_RT.png)	
+
+
+1. Select the **copy** button next to the **Connection string-primary key** field. Copy this key and note that in a text editor to use in upcoming modules.
+
+	![HERE Maps & Location Services Data Streams Template Deployed](../Images/18_ResourceSelection_EventHub_Key.png)	
+
+
+</p></details>
+
+
+
 
