@@ -30,11 +30,11 @@ In this step you will download the script files from the link and then you need 
 
 1. Click on **Cloud shell** to open the Azure PowerShell command-line.
 
-1. Let’s it open the PowerShell command-line it may take few seconds to open up
+1. Let’s it open the **PowerShell command-line** it may take few seconds to open up
 
 	![HERE Maps & Location Services Data Streams](../Images/2_PowershellCommandline.png)
 	
-1. Ensure that the command-line interface indicates its PowerShell, by default it will be in the Azure directory. We need to set location to execute our Producer script. Execute the below command to set location
+1. Ensure that the command-line interface indicates its **PowerShell**, by default it will be in the Azure directory. We need to set location to execute our Producer script. Execute the below command to set location
 
                 >Set-Location $home 
 	
@@ -42,11 +42,11 @@ In this step you will download the script files from the link and then you need 
 6. It changes the directory and it set’s the home location of the user profile
 
 	
-1. In menu tab click on Upload/Download files icon then click on upload to upload our zip file 
+1. In menu tab click on **Upload/Download** files icon then click on upload to upload our zip file 
 
 	![HERE Maps & Location Services Data Streams](../Images/3_UploadFiles.png)
 	
-1. Browse to the directory where you saved the Zip file locally which you have downloaded in step-1. Choose the file and Upload.
+1. Browse to the directory where you saved the Zip file locally which you have downloaded in step-1. Choose the file and **Upload**.
 
 	![HERE Maps & Location Services Data Streams](../Images/4_UploadComplete.png)
 	
@@ -73,13 +73,11 @@ In this step you will configure the Event Hub details on the Producer script. Th
 <details>
 <summary><strong>Step-by-step instructions (expand for details)</strong></summary><p>
  
-1. Go back to the first window where Azure Cloud shell command line will be running
-
-1. Navigate to the Producer directory by executing the below command
+1. Navigate to the **Producer** directory by executing the below command
 
 		>cd Producer
 
-1. In menu tab click on Open editor icon, it opens the VS code text editor online
+1. In menu tab click on **Open editor** icon, it opens the VS code text editor online
 
 	![HERE Maps & Location Services Data Streams](../Images/6_CloudBashEditor.png)
 
@@ -96,7 +94,7 @@ In this step you will configure the Event Hub details on the Producer script. Th
 		
 1. In **config.json** Find the key **cosmosdb** and replace the **uri** & **masterKey** with **Cosmos DB URI** & **Cosmos DB PRIMARY KEY** value which you copied in the module 1.
 	
-1. After making the changes, click on more tab to save the file. Click on more tab on the right corner, click **save** to save the file. Then click on close editor to close the window.
+1. After making the changes, click on more tab to save the file. Click on more tab on the right corner, click **save** to save the file. Then click on **close editor** to close the window.
 
 	![HERE Maps & Location Services Data Streams](../Images/8_SaveConfiguration&CloseEditor.png)
 	
@@ -104,13 +102,15 @@ In this step you will configure the Event Hub details on the Producer script. Th
 1. Now back in to PowerShell execute the below command to validate the producer script. You can see the data’s emitting by the Trucks. By default, it produces five trucks data.
 
 		>node producer.js	
+		
+	![HERE Maps & Location Services Data Streams](../Images/10_ProducerResultConsole_1.png)
 	
 	
 1. You can run up to 10 Trucks to emit data. You can mention the number of trucks should run at a time by mentioning in the command line. You can mention from 1 to 10.
 
 		>node producer.js 8
 
-	![HERE Maps & Location Services Data Streams](../Images/9_ProducerResultCOnsole.png)
+	![HERE Maps & Location Services Data Streams](../Images/10_ProducerResultConsole_2.png)
 	  
 </p></details>
 
