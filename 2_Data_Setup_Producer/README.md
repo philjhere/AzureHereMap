@@ -66,7 +66,7 @@ In this step you will download the script files from the link and then you need 
 </p></details>
 
 
-## 3. CosmosDB & Event Hub Configuration
+## 2. CosmosDB & Event Hub Configuration
 
 In this step you will configure the Event Hub details on the Producer script. The producer will produce the data and sends to the Azure Event Hub to store the data’s in cosmos DB. This script files will produce the current location, Engine Temperature, Engine RPM, Engine Load & Coolant Temperature details of the Truck. 
 
@@ -101,12 +101,12 @@ In this step you will configure the Event Hub details on the Producer script. Th
 		
 1. Now back in to PowerShell execute the below command to validate the producer script. You can see the data’s emitting by the Trucks. By default, it produces five trucks data.
 
-		>node index.js	
+		>node producer.js	
 	
 	
 1. You can run up to 10 Trucks to emit data. You can mention the number of trucks should run at a time by mentioning in the command line. You can mention from 1 to 10.
 
-		>node index.js 10
+		>node producer.js 8
 
 	![HERE Maps & Location Services Data Streams](../Images/9_ProducerResultCOnsole.png)
 	  
