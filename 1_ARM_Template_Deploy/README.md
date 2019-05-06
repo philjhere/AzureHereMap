@@ -56,12 +56,15 @@ To obtain the credentials for the deployment of HERE Maps & Location Services Da
 
 ## 2. Acquiring HERE App ID and HERE App Code
 
-The below steps help you deploy HERE Maps & Locations Services Data Streams Template in your Azure resource group. 
+The below steps help you deploy HERE Maps & Locations Services Data Streams Template in your Azure resource group.Use this [link](https://azuremarketplace.microsoft.com/en-us) to deploy
 
 <details>
 <summary><strong>Step-by-step instructions (expand for details)</strong></summary><p>
+	
+1. Go to this [link](https://azuremarketplace.microsoft.com/en-us) and type in the search bar **HERE Maps & Locations Services Data Streams**. In search result select **HERE Maps & Locations Services Data Streams** and the Click on **Get it Now** button to start the deployment process.
+	![HERE Maps & Location Services for Data Streams in Azure Marketplace](ARM_Deployment/1.png)
  
- 1. Click on **Get it Now** button to start the deployment process.
+1. Click on **Get it Now** button to start the deployment process.
 
 	![HERE Maps & Location Services for Data Streams in Azure Marketplace](ARM_Deployment/1.png)
 
