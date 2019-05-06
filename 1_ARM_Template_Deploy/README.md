@@ -62,7 +62,8 @@ The below steps help you deploy HERE Maps & Locations Services Data Streams Temp
 <summary><strong>Step-by-step instructions (expand for details)</strong></summary><p>
 	
 1. Go to this [link](https://azuremarketplace.microsoft.com/en-us) and type in the search bar **HERE Maps & Locations Services Data Streams**. In search result select **HERE Maps & Locations Services Data Streams** and the Click on **Get it Now** button to start the deployment process.
-	![HERE Maps & Location Services for Data Streams in Azure Marketplace](ARM_Deployment/1.png)
+
+	![HERE Maps & Location Services for Data Streams in Azure Marketplace](Images/0_Azure Marketplace.png)
  
 1. Click on **Get it Now** button to start the deployment process.
 
