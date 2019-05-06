@@ -125,11 +125,11 @@ In this step you will find the connection string details of Event Hub & Cosmos D
 	
 1. Select the **Resource group** which you used to deploy the **ARM Template** in the previous step
 
-	![HERE Maps & Location Services Data Streams Pricing Page](../Images/11_ResourceGroup_ResourceList.png)
+	![HERE Maps & Location Services Data Streams Pricing Page](../Images/11_ResourceGroup_ResourceList.PNG)
 
 1. You will be getting the list of resources which you created using **ARM template**.
 
-	![HERE Maps & Locations Services Data Streams Azure Portal Page](../Images/12_ResourceSelection.png)
+	![HERE Maps & Locations Services Data Streams Azure Portal Page](../Images/12_ResourceSelection.PNG)
 	
 1. Select Azure **Cosmos DB** in the list
 
@@ -137,7 +137,7 @@ In this step you will find the connection string details of Event Hub & Cosmos D
 	
 1. In the selected **Azure Cosmos DB account** page select **Keys** in left menu under **Settings**
 
-	![Template Deployment Page – HERE Credentials Section](../Images/14_ResourceSelection_CosmosDB_Keys.png)
+	![Template Deployment Page – HERE Credentials Section](../Images/14_ResourceSelection_CosmosDB_Keys.PNG)
 	
 		
 1. Copy the **URI** & **Primary Key** and note that in a text editor to use in upcoming modules.
@@ -148,7 +148,7 @@ In this step you will find the connection string details of Event Hub & Cosmos D
 	
 1. Select the **Resource group** which you used to deploy the **ARM Template** in the previous step .
 
-	![HERE Maps & Location Services Data Streams Template Deployed](../Images/15_ResourceSelection_EventHub.png)
+	![HERE Maps & Location Services Data Streams Template Deployed](../Images/15_ResourceSelection_EventHub.PNG)
 	
 1. Select **Event Hubs** in the list
 
