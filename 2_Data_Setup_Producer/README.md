@@ -26,13 +26,13 @@ In this step you will download the script files from the link and then you need 
 	
 1. Open Azure Portal home page and login with your credentials.
 
-	![HERE Maps & Location Services Data Streams](Producer/1.png)
+	![HERE Maps & Location Services Data Streams](../Images/1_AzureHome_CloudShell.png)
 
 1. Click on **Cloud shell** to open the Azure PowerShell command-line.
 
 1. Let’s it open the PowerShell command-line it may take few seconds to open up
 
-	![HERE Maps & Location Services Data Streams](Producer/2.png)
+	![HERE Maps & Location Services Data Streams](../Images/2_PowershellCommandline.png)
 	
 1. Ensure that the command-line interface indicates its PowerShell, by default it will be in the Azure directory. We need to set location to execute our Producer script. Execute the below command to set location
 
@@ -44,18 +44,18 @@ In this step you will download the script files from the link and then you need 
 	
 1. In menu tab click on Upload/Download files icon then click on upload to upload our zip file 
 
-	![HERE Maps & Location Services Data Streams Pricing Page](Producer/3.png)
+	![HERE Maps & Location Services Data Streams](../Images/3_UploadFiles.png)
 	
 1. Browse to the directory where you saved the Zip file locally which you have downloaded in step-1. Choose the file and Upload.
 
-	![HERE Maps & Location Services Data Streams Pricing Page](Producer/4.png)
+	![HERE Maps & Location Services Data Streams](../Images/4_UploadComplete.png)
 	
 1. Once the upload is completed successfully. The you need to extract the file, for extracting it  use the below command
 
 	            >Expand-Archive “Producer.zip”
          
         
-      ![HERE Maps & Location Services Data Streams Pricing Page](Producer/5.png)
+     ![HERE Maps & Location Services Data Streams](../Images/5_FilesExtraction.png)
   
 1. It may take few seconds to extract, after successful extraction you can verify the file by using the below command. 
 
@@ -66,7 +66,7 @@ In this step you will download the script files from the link and then you need 
 </p></details>
 
 
-## 3. Event Hub Configuration
+## 3. CosmosDB & Event Hub Configuration
 
 In this step you will configure the Event Hub details on the Producer script. The producer will produce the data and sends to the Azure Event Hub to store the data’s in cosmos DB. This script files will produce the current location, Engine Temperature, Engine RPM, Engine Load & Coolant Temperature details of the Truck. 
 
@@ -81,11 +81,11 @@ In this step you will configure the Event Hub details on the Producer script. Th
 
 1. In menu tab click on Open editor icon, it opens the VS code text editor online
 
-	![HERE Maps & Location Services Data Streams Pricing Page](Producer/9.png)
+	![HERE Maps & Location Services Data Streams](../Images/6_CloudBashEditor.png)
 
 1. In the text editor left panel select the **Producer** folder under this find & open **index.js**
 
-	![HERE Maps & Location Services Data Streams Pricing Page](Producer/10.png)
+	![HERE Maps & Location Services Data Streams](../Images/7_ConfigurationChanges.png)
 	
 	
 1. In index.js Find the variable **EVENTHUB_CONNECTION_STRING**  and replace the Eventhub connection string value which you copied in the previous Step. 
@@ -96,19 +96,19 @@ In this step you will configure the Event Hub details on the Producer script. Th
 	
 1. After making the changes, click on more tab to save the file. Click on more tab on the right corner, click **save** to save the file. Then click on close editor to close the window.
 
-	![HERE Maps & Location Services Data Streams Pricing Page](Producer/11.png)
+	![HERE Maps & Location Services Data Streams](../Images/8_SaveConfiguration&CloseEditor.png)
 	
 		
 1. Now back in to PowerShell execute the below command to validate the producer script. You can see the data’s emitting by the Trucks. By default, it produces five trucks data.
 
 		>node index.js	
 	
-	![HERE Maps & Location Services Data Streams Pricing Page](Producer/12.png)
-	
 	
 1. You can run up to 10 Trucks to emit data. You can mention the number of trucks should run at a time by mentioning in the command line. You can mention from 1 to 10.
 
-	![HERE Maps & Location Services Data Streams Pricing Page](Producer/13.png)
+		>node index.js 10
+
+	![HERE Maps & Location Services Data Streams](../Images/9_ProducerResultCOnsole.png)
 	  
 </p></details>
 
