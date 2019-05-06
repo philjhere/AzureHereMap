@@ -71,42 +71,42 @@ The below steps help you deploy HERE Maps & Locations Services Data Streams Temp
 
 1. Read through the Microsoft agreement and click on **Continue** when you are ready.
 
-	![HERE Maps & Location Services Data Streams Pricing Page](ARM_Deployment/2.png)
+	![HERE Maps & Location Services Data Streams Pricing Page](ARM_Deployment/2_HEREMaps&LocationServicesDataStreamsPricingPage.png)
 
 1. You will be re-directed to template deployment home screen. Click on **Create** button to continue.
 
-	![HERE Maps & Locations Services Data Streams Azure Portal Page](ARM_Deployment/3.png)
+	![HERE Maps & Locations Services Data Streams Azure Portal Page](ARM_Deployment/3_HEREMaps&LocationsServicesDataStreamsAzurePortalPage.png)
 	
 1. You will now be prompted to provide details specific to deployment. In the **Basics** use any existing resource group you might have or click on **create new** button to create a new resource group. Select your Subscription details and location and click **OK** to continue.
 
-	![Template Deployment Page -  Basic Section](ARM_Deployment/4.png)
+	![Template Deployment Page -  Basic Section](ARM_Deployment/4_TemplateDeploymentPage-BasicSection.png)
 	
 	
 	
 	
-	![Template Deployment Page – Basic Section – Create new Resource Group](ARM_Deployment/5.png)
+	![Template Deployment Page – Basic Section – Create new Resource Group](ARM_Deployment/5_TemplateDeploymentPage–BasicSection–CreatenewResourceGroup.png)
 	
 1. You now need to provide HERE credentials (HERE App ID and HERE App Code) which are pre-requisite to access HERE resources. If you already have HERE credentials available with you, provide the same and click **OK**. If you don’t have HERE credentials, please visit here(https://developer.here.com) to register for FREE with HERE. You also need to select a Storage option, you can either select any existing Storage or continue with a newly created one.
 
-	![Template Deployment Page – HERE Credentials Section](ARM_Deployment/6.png)
+	![Template Deployment Page – HERE Credentials Section](ARM_Deployment/6_TemplateDeploymentPage–HERECredentialsSection.png)
 	
 	
 	
 	
 	
-	![Template Deployment Page – Storage Selection](ARM_Deployment/7.png)
+	![Template Deployment Page – Storage Selection](ARM_Deployment/7_TemplateDeploymentPage–StorageSelection.png)
 	
 1. You will see the summary of details, which were provided during the previous steps. Review the values and click **OK** once you are satisfied with all values.
 
-	![Template Deployment Page – Summary Section](ARM_Deployment/8.png)
+	![Template Deployment Page – Summary Section](ARM_Deployment/8_TemplateDeploymentPage–SummarySection.png)
 	
 1. Review the master agreement and click the check box at the bottom of agreement. You are now ready for template deployment. Click on **Create** to start template deployment..
 
-	![Template Deployment Page – Create/Buy Section](ARM_Deployment/9.png)
+	![Template Deployment Page – Create/Buy Section](ARM_Deployment/9_TemplateDeploymentPage–CreateBuySection.png)
 	
 1. Deployment should have started, and you will be able to see in the notification tabs deployment in progress. Once deployment is complete, you should receive the notification of the same and be able to see new resources in the resources section of your account.
 
-	![HERE Maps & Location Services Data Streams Template Deployed](ARM_Deployment/10.png)
+	![HERE Maps & Location Services Data Streams Template Deployed](ARM_Deployment/10_HEREMaps&LocationServicesDataStreamsTemplateDeployed.png)
 
 </p></details>
 
