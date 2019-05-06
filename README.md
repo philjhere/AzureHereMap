@@ -16,7 +16,7 @@ architecture and verify your work.
 
 | Module        | Description |
 |---------------|-------------|
-| [1. ARM Template Deploy][ARM Template Deploy] | The HERE Location Services Data Streams Template is a Solution Template on Azure  |
+| [1. ARM Template Deployment][ARM Template Deploy] | The HERE Location Services Data Streams Template is a Solution Template on Azure  |
 | [2. Data Setup Producer][Data_Setup_Producer] | Uploading the Producer setup data to azure PowerShell  |
 | [3. Data Setup WebApp][Data_Setup_WebApp] | Creating Azure web-app and uploading the setup data  |
 | [4. Validation][Validation] | Launch the web-app URL via browser to see the dashboard on a real-time map  |
