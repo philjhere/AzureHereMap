@@ -1,6 +1,12 @@
 # HERE Maps & Location Services Data Streams on Azure Workshop
 
-This document introduces the deployment steps for HERE Maps & Location Services Data Streams on Azure. This workshop contains four modules.
+In this workshop you will deploy a simple web application that enables users to track the fleet of Contoso Corp. and allows to monitor various engine parameters on HTML using graphical representation. The application allows users to generate various engine parameters and location parameters which are used for fleet tracking and fleet health management. 
+
+The application architecture uses Azure ARM templates, Azure Serverless Functions, Azure PowerShell and Azure Cosmos DB. A webapp based on node.js will be deployed to view the results on web browser. A node.js based producer script allows users to generate the dummy data. It also calls HERE geocoder serverless function to fetch the address of corresponding to a latitude and longitude combination which is stored in Cosmos DB. 
+
+See the diagram below for a depiction of the complete architecture. 
+
+  ![Architecture Diagram](Images/architecture.png)
 
 ### Modules
 
