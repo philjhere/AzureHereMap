@@ -133,11 +133,11 @@ In this step you will find the connection string details of Event Hub & Cosmos D
 	
 1. Select Azure **Cosmos DB** in the list
 
-	![Template Deployment Page -  Basic Section](../Images/13_ResourceSelection_CosmosDB.png)
+	![Template Deployment Page -  Basic Section](../Images/13_ResourceSelection_CosmosDB.PNG)
 	
 1. In the selected **Azure Cosmos DB account** page select **Keys** in left menu under **Settings**
 
-	![Template Deployment Page – HERE Credentials Section](../Images/14_ResourceSelection_CosmosDB_Keys.PNG)
+	![Template Deployment Page – HERE Credentials Section](../Images/14_ResourceSelection_CosmosDB_Keys.png)
 	
 		
 1. Copy the **URI** & **Primary Key** and note that in a text editor to use in upcoming modules.
