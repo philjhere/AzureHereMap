@@ -83,16 +83,18 @@ In this step you will configure the Event Hub details on the Producer script. Th
 
 	![HERE Maps & Location Services Data Streams](../Images/6_CloudBashEditor.png)
 
-1. In the text editor left panel select the **Producer** folder under this find & open **index.js**
+1. In the text editor left panel select the **Producer** folder under this find & open **config.json**
 
 	![HERE Maps & Location Services Data Streams](../Images/7_ConfigurationChanges.png)
 	
 	
-1. In index.js Find the variable **EVENTHUB_CONNECTION_STRING**  and replace the Eventhub connection string value which you copied in the previous Step. 
+1. In **config.json** find the key **here_credentials** and replace the **app_id** & **app_code** with **HERE APP_ID** & **APP_CODE** value which you copied in the module 1.
+
+
+1. In **config.json** Find the key **eventhub** and replace the **connection_string** with **Event Hub Connection string-primary key** value which you copied in the module 1. 
 
 		
-6. Find the variable **HERE_APP_ID** & **HERE_APP_CODE**, and replace the HERE credentials which you created in the previous module
-	
+1. In **config.json** Find the key **cosmosdb** and replace the **uri** & **masterKey** with **Cosmos DB URI** & **Cosmos DB PRIMARY KEY** value which you copied in the module 1.
 	
 1. After making the changes, click on more tab to save the file. Click on more tab on the right corner, click **save** to save the file. Then click on close editor to close the window.
 
