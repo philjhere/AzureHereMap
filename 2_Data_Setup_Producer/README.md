@@ -21,7 +21,7 @@ In this step you will download the script files from the link and then you need 
 <details>
 <summary><strong>Step-by-step instructions (expand for details)</strong></summary><p>
  
- 1. Click the [link](https://github.com/iyyappan16/Azure_HereMap/blob/master/Data_Setup_Producer/Producer.zip) and download the zip file (Producer.zip) and extract it to your local machine.
+ 1. Click the [link](https://github.com/iyyappan16/AzureHereMap/blob/master/2_Data_Setup_Producer/Producer.zip) and download the zip file (Producer.zip) and extract it to your local machine.
 
 	
 1. Open Azure Portal home page and login with your credentials.
@@ -62,42 +62,6 @@ In this step you will download the script files from the link and then you need 
               >ls
               
 1. It lists the directories available in the current directory. so, you can find the unzipped/ extracted **Producer** folder. 
-  
-</p></details>
-
-
-
-## 2. Get Event Hub Connection String
-
-In this you get the Event Hub connection string details and will configure with Producer script in the next step. 
-
-<details>
-<summary><strong>Step-by-step instructions (expand for details)</strong></summary><p>
- 
-1. Open Azure Portal home page in New tab
-
-1. Select **All services** on the left navigational menu.
-
-
-1. Select **Event Hubs** in the **Analytics** section.
-
-1. In the list of event hubs, select your event hub.
-	
-	
-1. On the **Event Hubs Namespace** page, select **Shared Access Policies** on the left menu.
-
-	![HERE Maps & Location Services Data Streams Pricing Page](Producer/6.png)
-		
-6. Select a **shared access policy** in the list of policies. The default one is named: **RootManageSharedAccessPolicy**. You can add a policy with appropriate permissions (read, write), and use that policy.
-
-
-	![HERE Maps & Location Services Data Streams Pricing Page](Producer/7.png)
-	
-	
-1. Select the **copy** button next to the **Connection string-primary key** field. Copy this key to use in the upcoming step
-
-	![HERE Maps & Location Services Data Streams Pricing Page](Producer/8.png)
-	
   
 </p></details>
 
