@@ -114,15 +114,16 @@ In our previous modules we have created Web App. We assume that you have complet
     
     ![HERE Maps & Location Services Data Streams](../Images/8_LineGraph_DashboardOutput.PNG)
 
+  
+</p></details>
+
+
 
 
 Congratulations You have completed the Workshop successfully..!
   
 After you have completed the workshop you can delete all of the resources that were created by following the [cleanup guide][cleanup].
 
-
-	  
-</p></details>
 
 
 [cleanup]: 5_CleanUp/
