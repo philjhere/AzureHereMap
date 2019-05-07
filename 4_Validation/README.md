@@ -36,7 +36,7 @@ In our previous modules we have created Web App. We assume that you have complet
   
 1. You can run up to 10 Trucks to emit data. You can mention the number of trucks should run at a time by mentioning in the command line. You can mention from 1 to 10.
 
-              	>node index.js 10
+              	>node index.js 8
 
 	![HERE Maps & Location Services Data Streams](../Images/10_ProducerResultConsole_2.png)
   
