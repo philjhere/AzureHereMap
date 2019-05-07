@@ -112,7 +112,7 @@ In this step you will configure the Event Hub details on the Producer script. Th
 
 ## Producer Validation
 
-In this step you can validate your producer script execution weather the producer is emiting data or not. 
+In this step you can validate your producer script execution weather the producer is emitting data or not.
 
 1. Now back in to PowerShell execute the below command to validate the producer script. You can see the data’s emitting by the Trucks. By default, it produces five trucks data.
 
