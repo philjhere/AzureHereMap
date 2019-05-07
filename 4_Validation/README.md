@@ -15,7 +15,7 @@ In our previous modules we have created Web App. We assume that you have complet
 
 1. Click on **Cloud shell** to open the Azure PowerShell command-line.
 
-  ![HERE Maps & Location Services Data Streams](../Images/1_AzureHome_CloudShell.png)
+  	![HERE Maps & Location Services Data Streams](../Images/1_AzureHome_CloudShell.png)
 
 1. Let’s it open the **PowerShell command-line** it may take few seconds to open up
 
@@ -38,7 +38,7 @@ In our previous modules we have created Web App. We assume that you have complet
 
               	>node “index.js”
 
-	![HERE Maps & Location Services Data Streams](../Images/10_ProducerResultConsole_1.PNG)
+	![HERE Maps & Location Services Data Streams](../Images/10_ProducerResultConsole_1.png)
     
   
 1. You can run up to 10 Trucks to emit data. You can mention the number of trucks should run at a time by mentioning in the command line. You can mention from 1 to 10.
@@ -67,41 +67,41 @@ In our previous modules we have created Web App. We assume that you have complet
 
 1. Click on “Configuration” under “Settings” section
 
-	![HERE Maps & Location Services Data Streams](../Images/0_Configuration_Setting.png)
+	![HERE Maps & Location Services Data Streams](../Images/0_Configuration_Setting.PNG)
 
 
 1. Click on “New application setting”
 
-	![HERE Maps & Location Services Data Streams](../Images/1_Application_APP_Setting.png)
+	![HERE Maps & Location Services Data Streams](../Images/1_Application_APP_Setting.PNG)
   
 1. In “Add/Edit application setting” add in Name as “WEBSITE_NODE_DEFAULT_VERSION” and Value as “8.9.0”, then click “update” the click on “save” button to save the changes
 
             Name: WEBSITE_NODE_DEFAULT_VERSION
             Value: 8.9.0
 
-	![HERE Maps & Location Services Data Streams](../Images/2_Application_NewAPP_Setting.png)
+	![HERE Maps & Location Services Data Streams](../Images/2_Application_NewAPP_Setting.PNG)
   
     
-1.Click on overview tab, find click the URL to open your web app
-
-   ![HERE Maps & Location Services Data Streams](../Images/4_OverviewTab.png)
- 
+1. Click on overview tab, find click the URL to open your web app
+	
+	![HERE Maps & Location Services Data Streams](../Images/4_OverviewTab.PNG)
+	
 1. You can able to see the Map dashboard. Based on your trucks count in the producer the Truck will be displayed in the Map.
 
 1. Every five seconds you can able to see the movement of the truck
 
-  	![HERE Maps & Location Services Data Streams](../Images/3_DashboardOutput.png)
+  	![HERE Maps & Location Services Data Streams](../Images/3_DashboardOutput.PNG)
 
 1. To access the Line Graph dashboard, type /graph in the URL and enter
 
               Eg: https://fleetdashboard.azurewebsites.net/graph
               
-    ![HERE Maps & Location Services Data Streams](../Images/4_DashboardOutput_Graph.png)
+    ![HERE Maps & Location Services Data Streams](../Images/4_DashboardOutput_Graph.PNG)
 
 
 1. Its open's a new page and you can see a Select Vehicle Text box
 
-    ![HERE Maps & Location Services Data Streams](../Images/5_DashboardOutput_Graph_Select.png)
+    ![HERE Maps & Location Services Data Streams](../Images/5_DashboardOutput_Graph_Select.PNG)
     
 1. Click in textbox, its dropdown the available tuck details
 
@@ -109,10 +109,10 @@ In our previous modules we have created Web App. We assume that you have complet
     
 1. Select the Truck and click on Submit button, it plots the Line graph of Engine Temperature, Engine RPM, Engine Load and Coolant Temperature.
 
-    ![HERE Maps & Location Services Data Streams](../Images/7_LineGraph_DashboardOutput.png)
+    ![HERE Maps & Location Services Data Streams](../Images/7_LineGraph_DashboardOutput.PNG)
     
     
-    ![HERE Maps & Location Services Data Streams](../Images/8_LineGraph_DashboardOutput.png)
+    ![HERE Maps & Location Services Data Streams](../Images/8_LineGraph_DashboardOutput.PNG)
 
 
 
