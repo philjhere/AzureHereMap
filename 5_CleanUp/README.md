@@ -18,19 +18,19 @@ This page provides instructions for cleaning up the resources created during the
 
 1. Click on “Delete resource group” to delete all the resources completely
 
-    ![HERE Maps & Location Services Data Streams Workshop CleanUP](../Images/0_DeleteResourceGroup_List.PNG)
+    ![HERE Maps & Location Services Data Streams Workshop CleanUP](../Images/0_DeleteResourceGroup_List.png)
     
 1. It Prompts the Modal window to confirm the delete operation. Enter the Resource group name in the text box then click the delete button
 
-    ![HERE Maps & Location Services Data Streams Workshop CleanUP](../Images/1_DeleteResourceGroup_List_Conformation.PNG)
+    ![HERE Maps & Location Services Data Streams Workshop CleanUP](../Images/1_DeleteResourceGroup_List_Conformation.png)
 
 1. It may take few minutes to complete the delete operation
 
-    ![HERE Maps & Location Services Data Streams Workshop CleanUP](../Images/2_DeleteResourceGroup_notification.PNG)
+    ![HERE Maps & Location Services Data Streams Workshop CleanUP](../Images/2_DeleteResourceGroup_notification.png)
 
 1. Once the delete operation is completed you will the notification that **Deleted resource group DemoResource**
 
-    ![HERE Maps & Location Services Data Streams Workshop CleanUP](../Images/3_DeleteResourceGroup_notification_success.PNG)
+    ![HERE Maps & Location Services Data Streams Workshop CleanUP](../Images/3_DeleteResourceGroup_notification_success.png)
 
 
 
