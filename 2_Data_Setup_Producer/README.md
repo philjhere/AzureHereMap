@@ -26,9 +26,10 @@ In this step you will download the script files from the link and then you need 
 	
 1. Open Azure Portal home page and login with your credentials.
 
-	![HERE Maps & Location Services Data Streams](../Images/1_AzureHome_CloudShell.png)
 
 1. Click on **Cloud shell** to open the Azure PowerShell command-line.
+
+	![HERE Maps & Location Services Data Streams](../Images/1_AzureHome_CloudShell.png)
 
 1. Let’s it open the **PowerShell command-line** it may take few seconds to open up
 
