@@ -132,7 +132,7 @@ In this step you will configure your Azure Web App with Azure cosmos DB and you 
  
 1. Click on the **Script** to open the folder in the list
 
-	![HERE Maps & Location Services Data Streams](../Images/12_Script_Truck_Dashboard_Edit.png)
+	![HERE Maps & Location Services Data Streams](../Images/12_Script_Dashboard_Edit.png)
   
 1. Now go to the file **truck_dashboard.js** click the **Edit** icon (pen icon)
 
@@ -172,6 +172,8 @@ In this step you will configure your Azure Web App with Azure cosmos DB and you 
 	![HERE Maps & Location Services Data Streams](../Images/4_OverviewTab.PNG)
 
 1. Save the **URL** to access the dashboard in the next module
+
+		Eg: https://fleetdashboard.azurewebsites.net
   
 	  
 </p></details>
