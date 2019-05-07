@@ -1,4 +1,4 @@
-# ARM Template Deploy
+#1. ARM Template Deploy
 
 ## Introduction
 
