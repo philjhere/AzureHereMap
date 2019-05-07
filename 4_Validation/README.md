@@ -52,7 +52,7 @@ In our previous modules we have created Web App. We assume that you have complet
   
 </p></details>
 
-## 1. Steps to Execute Web App
+## 2. Steps to Execute Web App
 
 <details>
 <summary><strong>Step-by-step instructions (expand for details)</strong></summary><p>
