@@ -31,21 +31,21 @@ In our previous modules we have created Web App. We assume that you have complet
 
 1. Navigate to the **Producer** directory by executing the below command
 
-		          >cd Producer
+		>cd Producer
 	
   
 1. Execute the below command to start the producer. By default, it produces five trucks data
 
-              >node “index.js”
+              	>node “index.js”
 
-	![HERE Maps & Location Services Data Streams](../Images/5_KuduTool.PNG)
+	![HERE Maps & Location Services Data Streams](../Images/10_ProducerResultConsole_1.PNG)
     
   
 1. You can run up to 10 Trucks to emit data. You can mention the number of trucks should run at a time by mentioning in the command line. You can mention from 1 to 10.
 
-              >node “index.js 10”
+              	>node “index.js 10”
 
-	![HERE Maps & Location Services Data Streams](../Images/6_KuduTool_ZIP.png)
+	![HERE Maps & Location Services Data Streams](../Images/10_ProducerResultConsole_2.png)
   
   
  1. Keep this window open and let's producer, script to be running to see the real time truck movement on the map
@@ -67,50 +67,52 @@ In our previous modules we have created Web App. We assume that you have complet
 
 1. Click on “Configuration” under “Settings” section
 
-	![HERE Maps & Location Services Data Streams](../Images/10_EditConfigFile_Editor.png)
+	![HERE Maps & Location Services Data Streams](../Images/0_Configuration_Setting.png)
 
 
 1. Click on “New application setting”
+
+	![HERE Maps & Location Services Data Streams](../Images/1_Application_APP_Setting.png)
   
 1. In “Add/Edit application setting” add in Name as “WEBSITE_NODE_DEFAULT_VERSION” and Value as “8.9.0”, then click “update” the click on “save” button to save the changes
 
             Name: WEBSITE_NODE_DEFAULT_VERSION
             Value: 8.9.0
 
-	![HERE Maps & Location Services Data Streams](../Images/12_Script_Truck_Dashboard_Edit.png)
+	![HERE Maps & Location Services Data Streams](../Images/2_Application_NewAPP_Setting.png)
   
     
 1.Click on overview tab, find click the URL to open your web app
 
-   ![HERE Maps & Location Services Data Streams](../Images/13_Script_Truck_Dashboard_Edit.png)
+   ![HERE Maps & Location Services Data Streams](../Images/4_OverviewTab.png)
  
 1. You can able to see the Map dashboard. Based on your trucks count in the producer the Truck will be displayed in the Map.
 
 1. Every five seconds you can able to see the movement of the truck
 
-  	![HERE Maps & Location Services Data Streams](../Images/14_Script_Truck_Dashboard_Save.png)
+  	![HERE Maps & Location Services Data Streams](../Images/3_DashboardOutput.png)
 
 1. To access the Line Graph dashboard, type /graph in the URL and enter
 
               Eg: https://fleetdashboard.azurewebsites.net/graph
               
-    ![HERE Maps & Location Services Data Streams](../Images/14_Script_Truck_Dashboard_Save.png)
+    ![HERE Maps & Location Services Data Streams](../Images/4_DashboardOutput_Graph.png)
 
 
 1. Its open's a new page and you can see a Select Vehicle Text box
 
-    ![HERE Maps & Location Services Data Streams](../Images/14_Script_Truck_Dashboard_Save.png)
+    ![HERE Maps & Location Services Data Streams](../Images/5_DashboardOutput_Graph_Select.png)
     
 1. Click in textbox, its dropdown the available tuck details
 
-    ![HERE Maps & Location Services Data Streams](../Images/14_Script_Truck_Dashboard_Save.png)
+    ![HERE Maps & Location Services Data Streams](../Images/6_DashboardOutput_Graph_Select.png)
     
 1. Select the Truck and click on Submit button, it plots the Line graph of Engine Temperature, Engine RPM, Engine Load and Coolant Temperature.
 
-    ![HERE Maps & Location Services Data Streams](../Images/14_Script_Truck_Dashboard_Save.png)
+    ![HERE Maps & Location Services Data Streams](../Images/7_LineGraph_DashboardOutput.png)
     
     
-    ![HERE Maps & Location Services Data Streams](../Images/14_Script_Truck_Dashboard_Save.png)
+    ![HERE Maps & Location Services Data Streams](../Images/8_LineGraph_DashboardOutput.png)
 
 
 
@@ -123,6 +125,6 @@ After you have completed the workshop you can delete all of the resources that w
 </p></details>
 
 
-
+[cleanup]: 5_CleanUp/
 
 
