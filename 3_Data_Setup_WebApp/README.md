@@ -73,7 +73,7 @@ In this step you will create an Azure Web App to upload the script files. Then y
 	![HERE Maps & Location Services Data Streams](../Images/4_OverviewTab.PNG)
 	
 	
-1. Type **Advanced Tools** in search bar
+1. In App service search bar type “Advanced Tools” 
 
 1. Click on **Advanced Tool** under **Development Tools** section
 
