@@ -94,16 +94,16 @@ In this step you will create an Azure Web App to upload the script files. Then y
 1. Select the file and “drag and drop” into the “Kudu console” under /wwwroot
 
 
-	![HERE Maps & Location Services Data Streams](../Images/7_KuduTool_ZIP_Upload.PNG)
+	![HERE Maps & Location Services Data Streams](../Images/7_KuduTool_ZIP_Upload.png)
   
 1. It extracts the files automatically, wait until extraction to complete 100% 
 
 
-	![HERE Maps & Location Services Data Streams](../Images/8_KuduTool_ZIP_Extracting.PNG)
+	![HERE Maps & Location Services Data Streams](../Images/8_KuduTool_ZIP_Extracting.png)
     
 1. Once extraction is completed, then you can able to see all the files and in console you will get the log “Deployment Successful”
 
-  	![HERE Maps & Location Services Data Streams](../Images/9_KuduTool_ZIP_Deploy_Success.PNG)
+  	![HERE Maps & Location Services Data Streams](../Images/9_KuduTool_ZIP_Deploy_Success.png)
 
 
 1. Now we are going to make configuration changes. You can able to the files has been extracted automatically.
@@ -111,19 +111,19 @@ In this step you will create an Azure Web App to upload the script files. Then y
 
 1. Now go to the file config.js click the Edit icon (pen icon)
 
-	![HERE Maps & Location Services Data Streams](../Images/10_EditConfigFile_Editor.PNG)
+	![HERE Maps & Location Services Data Streams](../Images/10_EditConfigFile_Editor.png)
 
 
 1. In “config.js” file find the variable and replace the  “config.endpoint” & “config.primaryKey” value with Cosmos DB URI & Cosmos DB PRIMARY KEY value which you copied in the module 1.
   
 1. Click on the “Save” button to save the file
 
-	![HERE Maps & Location Services Data Streams](../Images/11_ConfigFileEdit_Save.PNG)
+	![HERE Maps & Location Services Data Streams](../Images/11_ConfigFileEdit_Save.png)
   
  
 1. Click on the “Script” to open the folder in the list
 
-	![HERE Maps & Location Services Data Streams](../Images/12_Script_Truck_Dashboard_Edit.PNG)
+	![HERE Maps & Location Services Data Streams](../Images/12_Script_Truck_Dashboard_Edit.png)
   
 1. Now go to the file truck_dashboard.js click the Edit icon (pen icon)
 
