@@ -97,8 +97,22 @@ In this step you will configure the Event Hub details on the Producer script. Th
 1. After making the changes, click on more tab to save the file. Click on more tab on the right corner, click **save** to save the file. Then click on **close editor** to close the window.
 
 	![HERE Maps & Location Services Data Streams](../Images/8_SaveConfiguration&CloseEditor.png)
+
+1. Now back in to PowerShell execute the below command window to install the dependencies. Use the following command to install dependencies.
+
+		>npm install	
+		
+	![HERE Maps & Location Services Data Streams](../Images/9_ExecuteNPMinstall.png)
 	
 		
+	
+</p></details>		
+
+
+## Producer Validation
+
+In this step you can validate your producer script execution weather the producer is emiting data or not. 
+
 1. Now back in to PowerShell execute the below command to validate the producer script. You can see the data’s emitting by the Trucks. By default, it produces five trucks data.
 
 		>node producer.js	
@@ -115,7 +129,7 @@ In this step you will configure the Event Hub details on the Producer script. Th
 	
 1. Press **ctrl+c** in the keyboard to stop the producer.
 	  
-</p></details>
+You have completed this module successfully.
 
 
 
