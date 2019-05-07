@@ -21,7 +21,7 @@ In this step you will download the script files from the link and then you need 
 <details>
 <summary><strong>Step-by-step instructions (expand for details)</strong></summary><p>
  
- 1. Click the [link](https://github.com/iyyappan16/AzureHereMap/blob/master/2_Data_Setup_Producer/Producer.zip) and download the zip file (Producer.zip) and extract it to your local machine.
+ 1. Click the [link](https://github.com/iyyappan16/AzureHereMap/blob/master/2_Data_Setup_Producer/Producer.zip) and download the zip file (Producer.zip) and save it in to your local machine..
 
 	
 1. Open Azure Portal home page and login with your credentials.
