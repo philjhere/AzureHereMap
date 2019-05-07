@@ -34,16 +34,9 @@ In our previous modules we have created Web App. We assume that you have complet
 		>cd Producer
 	
   
-1. Execute the below command to start the producer. By default, it produces five trucks data
-
-              	>node “index.js”
-
-	![HERE Maps & Location Services Data Streams](../Images/10_ProducerResultConsole_1.png)
-    
-  
 1. You can run up to 10 Trucks to emit data. You can mention the number of trucks should run at a time by mentioning in the command line. You can mention from 1 to 10.
 
-              	>node “index.js 10”
+              	>node index.js 10
 
 	![HERE Maps & Location Services Data Streams](../Images/10_ProducerResultConsole_2.png)
   
@@ -57,36 +50,9 @@ In our previous modules we have created Web App. We assume that you have complet
 <details>
 <summary><strong>Step-by-step instructions (expand for details)</strong></summary><p>
 
-1. Open Azure Portal home page in New Tab 
+1. Open the browser tab and enter the Web App URL which you copied/saved in the previous module
 
-1. Click on App Services in the left navigation menu
-  
-1. Open the Web App which we created in the Previous module 
-    
-1. In App service search bar type “Configuration”
-
-1. Click on “Configuration” under “Settings” section
-
-	![HERE Maps & Location Services Data Streams](../Images/0_Configuration_Setting.PNG)
-
-
-1. Click on “New application setting”
-
-	![HERE Maps & Location Services Data Streams](../Images/1_Application_APP_Setting.PNG)
-  
-1. In “Add/Edit application setting” add in Name as “WEBSITE_NODE_DEFAULT_VERSION” and Value as “8.9.0”, then click “update” the click on “save” button to save the changes
-
-            Name: WEBSITE_NODE_DEFAULT_VERSION
-            Value: 8.9.0
-
-	![HERE Maps & Location Services Data Streams](../Images/2_Application_NewAPP_Setting.PNG)
-  
-    
-1. Click on overview tab, find click the URL to open your web app
-	
-	![HERE Maps & Location Services Data Streams](../Images/4_OverviewTab.PNG)
-	
-1. You can able to see the Map dashboard. Based on your trucks count in the producer the Truck will be displayed in the Map.
+1. You can able to see the Map dashboard. Based on your truck count in the producer the Truck icons will be displayed in the Map.
 
 1. Every five seconds you can able to see the movement of the truck
 
