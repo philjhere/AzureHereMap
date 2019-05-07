@@ -37,7 +37,7 @@ In this step you will create an Azure Web App to upload the script files. Then y
 <details>
 <summary><strong>Step-by-step instructions (expand for details)</strong></summary><p>
  
-1. Open Azure Portal home page in New Tab
+1. Go to **Azure Portal** home page
 
 1. Click **Create a Resource** on the top left. Enter **web app** in the search box to get the required resource type and hit Enter.
 
