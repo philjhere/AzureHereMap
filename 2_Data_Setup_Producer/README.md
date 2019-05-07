@@ -111,6 +111,9 @@ In this step you will configure the Event Hub details on the Producer script. Th
 		>node producer.js 8
 
 	![HERE Maps & Location Services Data Streams](../Images/10_ProducerResultConsole_2.png)
+	
+	
+1. Press **ctrl+c** in the keyboard to stop the producer.
 	  
 </p></details>
 
