@@ -123,7 +123,7 @@ In this step you will create an Azure Web App to upload the script files. Then y
  
 1. Click on the “Script” to open the folder in the list
 
-	![HERE Maps & Location Services Data Streams](../Images/12_Script_Truck_Dashboard_Edit.PNG)
+	![HERE Maps & Location Services Data Streams](../Images/12_Script_Truck_Dashboard_Edit.png)
   
 1. Now go to the file truck_dashboard.js click the Edit icon (pen icon)
 
