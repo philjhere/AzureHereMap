@@ -29,9 +29,9 @@ In our previous modules we have created Web App. We assume that you have complet
 6. It changes the directory and it set’s the home location of the user profile
 
 
-1. Navigate to the **Producer** directory by executing the below command
+1. Navigate to the **Producer** directory by executing the below command cd Producer
 
-		>cd Producer
+                >Set-Location $home 
 	
   
 1. You can run up to 10 Trucks to emit data. You can mention the number of trucks should run at a time by mentioning in the command line. You can mention from 1 to 10.
