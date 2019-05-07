@@ -94,6 +94,6 @@ After you have completed the workshop you can delete all of the resources that w
 
 
 
-[cleanup]: 5_CleanUp/
+[cleanup]: ../5_CleanUp/
 
 
