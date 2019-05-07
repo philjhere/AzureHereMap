@@ -14,7 +14,7 @@ In this module you will create Azure Web App to plot the dashboard to monitor th
 
 In our previous modules we have created and configured Event hub and Cosmos DB. We assume that you have completed the previous modules successfully. In this module you are going to create a Web App and FTP the dashboard script to fetch the records from the Cosmos DB.
   
-## 1. Data Setup for Producer
+## 1. Data Setup for Web App
 
 In this step you will download the script files from the link. In the next step you need to do the required configuration to get connected to Cosmos DB. This script file will plot the dashboard for the Trucks in real time and it will also plot the line graph dashboard for Engine Temperature, Engine RPM, Engine Load & Coolant Temperature details of the Truck.
 
@@ -105,6 +105,15 @@ In this step you will create an Azure Web App to upload the script files. Then y
 
   	![HERE Maps & Location Services Data Streams](../Images/9_KuduTool_ZIP_Deploy_Success.png)
 
+</p></details>
+
+
+## 2. Configure Azure Web App
+
+In this step you will configure your Azure Web App with Azure cosmos DB and you include the application configuration settings to run the web app.
+
+<details>
+<summary><strong>Step-by-step instructions (expand for details)</strong></summary><p>
 
 1. Now we are going to make configuration changes. You can able to the files has been extracted automatically.
 
@@ -133,9 +142,36 @@ In this step you will create an Azure Web App to upload the script files. Then y
 
   	![HERE Maps & Location Services Data Streams](../Images/14_Script_Truck_Dashboard_Save.png)
 
-1. Click on **Save** button to save the file
+1. Click on **Save** button to save the file & Close the tab 
 
-1. Close the tab and go back to the Azure portal
+1. Go to Azure Portal home page
+
+1. Click on App Services in the left navigation menu
+    
+1. In App service search bar type “Configuration”
+
+1. Click on “Configuration” under “Settings” section
+
+	![HERE Maps & Location Services Data Streams](../Images/0_Configuration_Setting.PNG)
+
+
+1. Click on “New application setting”
+
+	![HERE Maps & Location Services Data Streams](../Images/1_Application_APP_Setting.PNG)
+  
+1. In “Add/Edit application setting” add in Name as “WEBSITE_NODE_DEFAULT_VERSION” and Value as “8.9.0”, then click “update” the click on “save” button to save the changes
+
+            Name: WEBSITE_NODE_DEFAULT_VERSION
+            Value: 8.9.0
+
+	![HERE Maps & Location Services Data Streams](../Images/2_Application_NewAPP_Setting.PNG)
+  
+    
+1. Click on overview tab, find **URL** to access your web app
+	
+	![HERE Maps & Location Services Data Streams](../Images/4_OverviewTab.PNG)
+
+1. Save the **URL** to access the dashboard in the next module
   
 	  
 </p></details>
