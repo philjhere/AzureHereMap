@@ -108,7 +108,7 @@ In this step you will create an Azure Web App to upload the script files. Then y
 </p></details>
 
 
-## 2. Configure Azure Web App
+## 3. Configure Azure Web App
 
 In this step you will configure your Azure Web App with Azure cosmos DB and you include the application configuration settings to run the web app.
 
