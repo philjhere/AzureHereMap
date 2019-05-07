@@ -39,51 +39,51 @@ In this step you will create an Azure Web App to upload the script files. Then y
  
 1. Open Azure Portal home page in New Tab
 
-1. Click Create a Resource on the top left. Enter “web app” in the search box to get the required resource type and hit Enter.
+1. Click **Create a Resource** on the top left. Enter **web app** in the search box to get the required resource type and hit Enter.
 
 	  ![HERE Maps & Location Services Data Streams](../Images/0_WebAppSearch.png)
 
-1. Select Web App from the search results and click Create button
+1. Select **Web App** from the search results and click **Create** button
 
 	  ![HERE Maps & Location Services Data Streams](../Images/1_WebAppSearchResult.png)
 	
 	
 1. It will be asked to provide some basic information for this App:
-    1. Project details tab, select your subscription and the use the same resource group which you used in the previous modules
+    1. Project details tab, select your **subscription** and the use the same **resource group** which you used in the previous modules
     
-    2. In Instance details, the first box is the name of your app. Use unique and qualified name like “fleetdashboard”.
+    2. In the Instance details, the first box is the **name** of your app. Use unique and qualified name like **fleetdashboard**.
     
-    3. Select Run-Time Stack “Node 8.0” and select Runtime as windows
+    3. Select **Run-Time Stack** as **Node 8.0** and select **Runtime** as **windows**
     
     4. Leave the other parameters as default
 
-1. Click on Review & Create, it will validate the details 
+1. Click on **Review & Create**, it will validate the details 
 
 	  ![HERE Maps & Location Services Data Streams](../Images/2_WebApp_Create.PNG)
 		
-1. Click on “Create”, It may take more than a minute for deployment
+1. Click on **Create**, It may take more than a minute for deployment
 	
-1. After successful deployment, Click on Go to resource
+1. After successful deployment, Click on **Go to resource**
 
 	  ![HERE Maps & Location Services Data Streams](../Images/3_Goto_Resource.PNG)
 	
 		
-1. In overview tab, find URL to access your web-app
+1. In overview tab, find **URL** to access your web-app
 		
 	![HERE Maps & Location Services Data Streams](../Images/4_OverviewTab.PNG)
 	
 	
-1. Type “Advanced Tools” in search bar
+1. Type **Advanced Tools** in search bar
 
-1. Click on “Advanced Tool” under Development Tools section
+1. Click on **Advanced Tool** under **Development Tools** section
 
 
 	![HERE Maps & Location Services Data Streams](../Images/5_KuduTool.PNG)
     
   
-1. Click on “Go” -> it opens up in the new tab
+1. Click on **Go** -> it opens up in the new tab
 
-1. In menu select “Zip Push Deploy” under “Tools”
+1. In menu select **Zip Push Deploy** under **Tools**
 
 
 	![HERE Maps & Location Services Data Streams](../Images/6_KuduTool_ZIP.png)
@@ -109,31 +109,31 @@ In this step you will create an Azure Web App to upload the script files. Then y
 1. Now we are going to make configuration changes. You can able to the files has been extracted automatically.
 
 
-1. Now go to the file config.js click the Edit icon (pen icon)
+1. Now go to the file **config.js** click the **Edit** icon (pen icon)
 
 	![HERE Maps & Location Services Data Streams](../Images/10_EditConfigFile_Editor.png)
 
 
-1. In “config.js” file find the variable and replace the  “config.endpoint” & “config.primaryKey” value with Cosmos DB URI & Cosmos DB PRIMARY KEY value which you copied in the module 1.
+1. In **config.js** file find the variable **config.endpoint** & **config.primaryKey** and replace the value with **Cosmos DB URI & Cosmos DB PRIMARY KEY** value which you copied in the **module 1**.
   
-1. Click on the “Save” button to save the file
+1. Click on the **Save** button to save the file
 
 	![HERE Maps & Location Services Data Streams](../Images/11_ConfigFileEdit_Save.PNG)
   
  
-1. Click on the “Script” to open the folder in the list
+1. Click on the **Script** to open the folder in the list
 
 	![HERE Maps & Location Services Data Streams](../Images/12_Script_Truck_Dashboard_Edit.png)
   
-1. Now go to the file truck_dashboard.js click the Edit icon (pen icon)
+1. Now go to the file **truck_dashboard.js** click the **Edit** icon (pen icon)
 
 	![HERE Maps & Location Services Data Streams](../Images/13_Script_Truck_Dashboard_Edit.png)
  
-1. In “truck_dashboard.js” file find the variable and replace the value “app_id” & “app_code” with Cosmos DB URI & with HERE APP_ID & APP_CODE value which you copied in the module 1.
+1. In **truck_dashboard.js** file find the variable **app_id** & **app_code** and replace the value with **HERE APP_ID** & **APP_CODE** value which you copied in the **module 1**.
 
   	![HERE Maps & Location Services Data Streams](../Images/14_Script_Truck_Dashboard_Save.png)
 
-1. Click on “Save” button to save the file
+1. Click on **Save** button to save the file
 
 1. Close the tab and go back to the Azure portal
   
