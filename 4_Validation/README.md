@@ -52,6 +52,8 @@ In our previous modules we have created Web App. We assume that you have complet
 
 1. Open the browser tab and enter the Web App URL which you copied/saved in the previous module
 
+ 		Eg: https://fleetdashboard.azurewebsites.net
+
 1. You can able to see the Map dashboard. Based on your truck count in the producer the Truck icons will be displayed in the Map.
 
 1. Every five seconds you can able to see the movement of the truck
