@@ -103,7 +103,8 @@ In this step you will configure the Event Hub details on the Producer script. Th
 		>npm install	
 		
 	![HERE Maps & Location Services Data Streams](../Images/9_ExecuteNPMinstall.png)
-	
+
+1. Your Data setup for Producer has been completed successfully
 		
 	
 </p></details>		
