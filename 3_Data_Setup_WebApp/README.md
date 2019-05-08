@@ -21,7 +21,7 @@ Download the script files from the link below. Next we will walk you through con
 <details>
 <summary><strong>Step-by-step instructions (expand for details)</strong></summary><p>
 
-1. Click the [link](https://github.com/iyyappan16/AzureHereMap/blob/master/3_Data_Setup_WebApp/FleetDashboard.zip) and download the zip file (FleetDashboard.zip).
+1. Click the [link](https://github.com/iyyappan16/AzureHereMap/blob/master/3_Data_Setup_WebApp/FleetDashboard.zip) and download the zip file (fleetdashboard.zip).
 
 1. Save it in to your local machine.
 
