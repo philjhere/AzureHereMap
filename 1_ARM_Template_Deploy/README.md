@@ -8,6 +8,25 @@ The [HERE Maps & Location Services Data Streams Template](https://azuremarketpla
 
 Azure Resource Manager templates or ARM templates ([learn more](https://docs.microsoft.com/en-us/azure/azure-resource-manager/)) is a way to quickly deploy services and dependencies depending on your use case. Simply put, it is a description of what your web application needs to run. HERE Technologies has created a number of ARM templates for you to use depending on the use case.  To learn more, visit our [blog]( https://developer.here.com/blog/here-powers-new-serverless-location-based-functions-for-microsoft-azure-developers) post discussing these in depth.
 
+In this module, you will deploy HERE Maps and Location Services Data Streams ARM Template. Azure ARM templates allows us to deploy various resources as a group, rather than handling these resources individually. As part of HERE Maps and Location Services Data Streams ARM Template, we will deploy Azure Event Hub, Azure Cosmos DB and HERE Azure Serverless functions as a group.
+
+## Solution Template Overview
+
+HERE Maps & Location Services Data Streams Template deploys HERE's enterprise class SLA backed Maps & Location Services, an EventHub and a CosmosDB for all your Azure Applications.
+
+These services address a range of use cases like Fleet Utilization, Supply Chain Optimization, Urban Movement, etc., and open up new location intelligence opportunities in diverse industries like Automotive, Insurance, Internet and Media, Mobile Payments, Public Sector and Infrastructure, Telecom and Utilities, and Transportation and Logistics.
+
+The function app in this ARM Template consists of the following HERE Location Service APIs:
+
+  -	Geocoder: Forward and Reverse
+  -	Batch Geocoder
+  -	Geocoder Autocomplete
+  -	Places
+  -	Map Image
+  -	Map Tile
+  - Routing - Mode (car, truck, public transit, bicycle) and algorithm (matrix, isoline routing)
+  - Positioning - Provides positioning estimates based on global Wi-Fi and Cell coverage, which includes the latitude and longitude of the position with accuracy.
+
 ## Deployment Guide
 
   1.  Acquiring HERE App ID and HERE App Code
@@ -18,9 +37,34 @@ Azure Resource Manager templates or ARM templates ([learn more](https://docs.mic
 
 All users of HERE APIs must obtain authentication and authorization credentials and provide them as values for the parameters HERE App ID and HERE App Code in the HERE Credentials section in Azure’s template deployment page.
 
-To obtain the credentials for the deployment of HERE Maps & Location Services Data Streams, please visit [here](https://developer.here.com) to register for FREE with HERE.
+To obtain the credentials for the deployment of HERE Maps & Location Services Data Streams, please visit [here](https://developer.here.com/?create=Freemium-Basic&keepState=true&step=account) to register for FREE with HERE.
 
-## 2. Acquiring HERE App ID and HERE App Code
+<details>
+<summary><strong>Step-by-step instructions (expand for details)</strong></summary><p>
+
+1. Go to this [link](https://developer.here.com/?create=Freemium-Basic&keepState=true&step=account) to register for FREE with HERE.
+
+1. Provide your basic details and register your HERE account
+
+1. After successful registration, It opens up the home page
+
+	![HERE Registration Page](../Images/0_Registeration_Home.png)
+
+1. Go to => Get your credentials: click on Generate App ID & App Code
+
+	![HERE Registration Page](../Images/1_Generate_AppID.png)
+
+1. It will generate your App ID & App Code. It may take few seconds to generate your credientials
+
+	![HERE Registration Page](../Images/2_Generate_AppID_Appcode.png)
+
+1. Note/save your APP ID & APP CODE to use in upcoming modules
+
+
+</p></details>
+
+
+## 2. Deploying Azure HERE ARM Template
 
 The below steps help you deploy HERE Maps & Locations Services Data Streams Template in your Azure resource group.Use this [link](https://azuremarketplace.microsoft.com/en-us) to deploy
 
@@ -66,7 +110,7 @@ The below steps help you deploy HERE Maps & Locations Services Data Streams Temp
 
 	![Template Deployment Page – Summary Section](../Images/8_TemplateDeploymentPage–SummarySection.png)
 
-1. Review the master agreement and click the check box at the bottom of agreement. You are now ready for template deployment. Click on **Create** to start template deployment..
+1. Review the master agreement and click the check box at the bottom of agreement. You are now ready for template deployment. Click on **Create** to start template deployment.
 
 	![Template Deployment Page – Create/Buy Section](../Images/9_TemplateDeploymentPage–CreateBuySection.png)
 
@@ -85,51 +129,51 @@ In this step you will find the connection string details of Event Hub & Cosmos D
 <details>
 <summary><strong>Step-by-step instructions (expand for details)</strong></summary><p>
 
-1. Open the Azure portal home page
+1. Open the Azure portal home page.
 
-2. Select **Resource groups** on the left navigational menu.
+2. Select the **Resource groups** from the left hand navigational menu.
 
-1. Select the **Resource group** which you used to deploy the **ARM Template** in the previous step
+1. Select the **Resource group** which you used to deploy the **ARM Template** in the previous step.
 
 	![HERE Maps & Location Services Data Streams Pricing Page](../Images/11_ResourceGroup_ResourceList.PNG)
 
-1. You will be getting the list of resources which you created using **ARM template**.
+1. You will be able to see the list of resources which were created as part of deployment of **ARM template**.
 
 	![HERE Maps & Locations Services Data Streams Azure Portal Page](../Images/12_ResourceSelection.PNG)
 
-1. Select Azure **Cosmos DB** in the list
+1. Select the Azure **Cosmos DB** from the list.
 
 	![Template Deployment Page -  Basic Section](../Images/13_ResourceSelection_CosmosDB.PNG)
 
-1. In the selected **Azure Cosmos DB account** page select **Keys** in left menu under **Settings**
+1. In the selected **Azure Cosmos DB account** page select **Keys** from left hand menu under **Settings**.
 
 	![Template Deployment Page – HERE Credentials Section](../Images/14_ResourceSelection_CosmosDB_Keys.png)
 
 
-1. Copy the **URI** & **Primary Key** and note that in a text editor to use in upcoming modules.
+1. Copy the **URI** & **Primary Key** and note that in a text editor. These values will be used in configuration in upcoming modules.
 
 
-1. Now go back to the **Resource groups** on the left navigational menuto get **Event Hub** Connection String details.
+1. Now go back to the **Resource groups** on the left hand navigational menu to get **Event Hub** Connection String details.
 
 
 1. Select the **Resource group** which you used to deploy the **ARM Template** in the previous step .
 
 	![HERE Maps & Location Services Data Streams Template Deployed](../Images/15_ResourceSelection_EventHub.PNG)
 
-1. Select **Event Hubs** in the list
+1. Select **Event Hubs** from the list.
 
 
 
-1. On the **Event Hubs Namespace** page, select **Shared Access Policies** on the left menu
+1. On the **Event Hubs Namespace** page, select **Shared Access Policies** from the left hand menu.
 
 	![HERE Maps & Location Services Data Streams Template Deployed](../Images/16_ResourceSelection_EventHub_SAP.png)
 
-1. Select a **shared access policy** in the list of policies. The default one is named: **RootManageSharedAccessPolicy**. You can add a policy with appropriate permissions (read, write), and use that policy
+1. Select a **shared access policy** in the list of policies. The default one is named: **RootManageSharedAccessPolicy**. You can add a policy with appropriate permissions (read, write), and use that policy as well.
 
 	![HERE Maps & Location Services Data Streams Template Deployed](../Images/17_ResourceSelection_EventHub_RT.png)
 
 
-1. Select the **copy** button next to the **Connection string-primary key** field. Copy this key and note that in a text editor to use in upcoming modules.
+1. Select the **copy** button next to the **Connection string-primary key** field. Copy this key and note that in a text editor.This value will be used in configuration in upcoming modules.
 
 	![HERE Maps & Location Services Data Streams Template Deployed](../Images/18_ResourceSelection_EventHub_Key.png)
 
