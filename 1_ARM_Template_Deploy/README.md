@@ -143,7 +143,7 @@ In this step you will find the connection string details of Event Hub & Cosmos D
 1. Copy the **URI** & **Primary Key** and note that in a text editor to use in upcoming modules.
 
 	
-1. Now go back to the **Resource groups** on the left navigational menuto get **Event Hub** Connection String details.
+1. Now go back to the **Resource groups** on the left navigational menu to get **Event Hub** Connection String details.
 
 	
 1. Select the **Resource group** which you used to deploy the **ARM Template** in the previous step .
