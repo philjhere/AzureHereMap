@@ -31,7 +31,30 @@ The function app in this ARM Template consists of the following HERE Location Se
 
 All users of HERE APIs must obtain authentication and authorization credentials and provide them as values for the parameters HERE App ID and HERE App Code in the HERE Credentials section in Azure’s template deployment page. 
 
-To obtain the credentials for the deployment of HERE Maps & Location Services Data Streams, please visit [here](https://developer.here.com) to register for FREE with HERE.
+To obtain the credentials for the deployment of HERE Maps & Location Services Data Streams, please visit [here](https://developer.here.com/?create=Freemium-Basic&keepState=true&step=account) to register for FREE with HERE.
+
+<details>
+<summary><strong>Step-by-step instructions (expand for details)</strong></summary><p>
+	
+1. Go to this [link](https://developer.here.com/?create=Freemium-Basic&keepState=true&step=account) to register for FREE with HERE.
+ 
+1. Provide your basic details and register your HERE account
+
+1. After successful registration
+
+1. Go to => Get your credentials: click on Generate App ID & App Code
+
+	![HERE Registration Page](../Images/3_HEREMaps&LocationsServicesDataStreamsAzurePortalPage.png)
+	
+1. It will generate your App ID & App Code. It may take few seconds to generate your credientials
+
+	![HERE Registration Page](../Images/3_HEREMaps&LocationsServicesDataStreamsAzurePortalPage.png)
+
+1. Note/save your APP ID & APP CODE to use in upcoming modules
+	
+
+</p></details>
+
 
 ## 2. Deploying Azure HERE ARM Template
 
