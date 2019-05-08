@@ -91,17 +91,17 @@ In this step you will create an Azure Web App to upload the script files. Then y
 
 1. Browse to the directory where you have saved the downloaded zip file (fleetdashboard.zip) in step-1. 
 
-1. Select the file and “drag and drop” into the “Kudu console” under /wwwroot
+1. Select the file and “drag and drop” into the “Kudu console” under /wwwroot path.
 
 
 	![HERE Maps & Location Services Data Streams](../Images/7_KuduTool_ZIP_Upload.png)
   
-1. It extracts the files automatically, wait until extraction to complete 100% 
+1. Files will be extracted automatically, wait till extraction is 100% complete. 
 
 
 	![HERE Maps & Location Services Data Streams](../Images/8_KuduTool_ZIP_Extracting.png)
     
-1. Once extraction is completed, then you can able to see all the files and in console you will get the log “Deployment Successful”
+1. Once extraction is completed, you will be able to see all the files and on the console you will get the log “Deployment Successful”
 
   	![HERE Maps & Location Services Data Streams](../Images/9_KuduTool_ZIP_Deploy_Success.png)
 
@@ -110,31 +110,31 @@ In this step you will create an Azure Web App to upload the script files. Then y
 
 ## 3. Configure Azure Web App
 
-In this step you will configure your Azure Web App with Azure cosmos DB and you include the application configuration settings to run the web app.
+In this step you will configure your Azure Web App with Azure cosmos DB to run the webapp.
 
 <details>
 <summary><strong>Step-by-step instructions (expand for details)</strong></summary><p>
 
-1. Now we are going to make configuration changes. You can able to the files has been extracted automatically.
+1. Now we are going to make configuration changes. We need to configure Azure Cosmos DB so that dashboard is able to read the data. 
 
 
-1. Now go to the file **config.js** click the **Edit** icon (pen icon)
+1. Select the file **config.js** click the **Edit** icon (pen icon)
 
 	![HERE Maps & Location Services Data Streams](../Images/10_EditConfigFile_Editor.png)
 
 
 1. In **config.js** file find the variable **config.endpoint** & **config.primaryKey** and replace the value with **Cosmos DB URI & Cosmos DB PRIMARY KEY** value which you copied in the **module 1**.
   
-1. Click on the **Save** button to save the file
+1. Click on the **Save** button to save the file.
 
 	![HERE Maps & Location Services Data Streams](../Images/11_ConfigFileEdit_Save.PNG)
   
  
-1. Click on the **Script** to open the folder in the list
+1. Click on the **Script** to open the folder in the list.
 
 	![HERE Maps & Location Services Data Streams](../Images/12_Script_Dashboard_Edit.png)
   
-1. Now go to the file **truck_dashboard.js** click the **Edit** icon (pen icon)
+1. Now go to the file **truck_dashboard.js** click the **Edit** icon (pen icon).
 
 	![HERE Maps & Location Services Data Streams](../Images/13_Script_Truck_Dashboard_Edit.png)
  
@@ -144,22 +144,22 @@ In this step you will configure your Azure Web App with Azure cosmos DB and you 
 
 1. Click on **Save** button to save the file & Close the tab 
 
-1. Go to Azure Portal home page
+1. Go to Azure Portal home page.
 
-1. Click on App Services in the left navigation menu
+1. Click on App Services on the left hand navigation menu.
     
-1. In App service search bar type “Configuration”
+1. In App service search bar type “Configuration”.
 
-1. Click on “Configuration” under “Settings” section
+1. Click on “Configuration” under “Settings” section.
 
 	![HERE Maps & Location Services Data Streams](../Images/0_Configuration_Setting.PNG)
 
 
-1. Click on “New application setting”
+1. Click on “New application setting”.
 
 	![HERE Maps & Location Services Data Streams](../Images/1_Application_APP_Setting.PNG)
   
-1. In “Add/Edit application setting” add in Name as “WEBSITE_NODE_DEFAULT_VERSION” and Value as “8.9.0”, then click “update” the click on “save” button to save the changes
+1. In “Add/Edit application setting” add in Name as “WEBSITE_NODE_DEFAULT_VERSION” and Value as “8.9.0”, then click “update”. Click on “save” button to save the changes.
 
             Name: WEBSITE_NODE_DEFAULT_VERSION
             Value: 8.9.0
@@ -167,11 +167,11 @@ In this step you will configure your Azure Web App with Azure cosmos DB and you 
 	![HERE Maps & Location Services Data Streams](../Images/2_Application_NewAPP_Setting.PNG)
   
     
-1. Click on overview tab, find **URL** to access your web app
+1. Click on overview tab, find **URL** to access your web app.
 	
 	![HERE Maps & Location Services Data Streams](../Images/4_OverviewTab.PNG)
 
-1. Save the **URL** to access the dashboard in the next module
+1. Save the **URL** to access the dashboard, we will use the same in the next module.
 
 		Eg: https://fleetdashboard.azurewebsites.net
   
