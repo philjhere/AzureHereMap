@@ -33,7 +33,7 @@ All users of HERE APIs must obtain authentication and authorization credentials 
 
 To obtain the credentials for the deployment of HERE Maps & Location Services Data Streams, please visit [here](https://developer.here.com) to register for FREE with HERE.
 
-## 2. Acquiring HERE App ID and HERE App Code
+## 2. Deploying Azure HERE ARM Template
 
 The below steps help you deploy HERE Maps & Locations Services Data Streams Template in your Azure resource group.Use this [link](https://azuremarketplace.microsoft.com/en-us) to deploy 
 
