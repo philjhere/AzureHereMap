@@ -98,11 +98,11 @@ In this step you will find the connection string details of Event Hub & Cosmos D
 <details>
 <summary><strong>Step-by-step instructions (expand for details)</strong></summary><p>
 	
-1. Open the Azure portal home page
+1. Open the Azure portal home page.
  
-2. Select **Resource groups** on the left navigational menu.
+2. Select the **Resource groups** from the left hand navigational menu.
 	
-1. Select the **Resource group** which you used to deploy the **ARM Template** in the previous step
+1. Select the **Resource group** which you used to deploy the **ARM Template** in the previous step.
 
 	![HERE Maps & Location Services Data Streams Pricing Page](../Images/11_ResourceGroup_ResourceList.PNG)
 
