@@ -106,7 +106,7 @@ In this step you will find the connection string details of Event Hub & Cosmos D
 
 	![HERE Maps & Location Services Data Streams Pricing Page](../Images/11_ResourceGroup_ResourceList.PNG)
 
-1. You will be abel to see the list of resources which were created as part of deployment of **ARM template**.
+1. You will be able to see the list of resources which were created as part of deployment of **ARM template**.
 
 	![HERE Maps & Locations Services Data Streams Azure Portal Page](../Images/12_ResourceSelection.PNG)
 	
