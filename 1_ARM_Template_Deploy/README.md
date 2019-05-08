@@ -2,7 +2,7 @@
 
 ## Introduction
 
-HERE Maps and Location Services Data Streams Template brings enterprise-grade, SLA backed location services to Azure applications. HERE Maps and location services solve a range of problems from map visualization, navigation and routing, geocoding, time zone look ups to geofencing, custom locations and routing, route matching GPS traces, geospatial, sequencing multiple waypoints, truck routing, positioning, etc.
+In this module, you will deploy HERE Maps and Location Services Data Streams ARM Template. Azure ARM templates allows us to deploy various resources as a group, rather than handling these resources individually. As part of HERE Maps and Location Services Data Streams ARM Template, we will deploy Azure Event Hub, Azure Cosmos DB and HERE Azure Serverless functions as a group. 
 
 ## Solution Template Overview
 
@@ -12,34 +12,13 @@ These services address a range of use cases like Fleet Utilization, Supply Chain
 
 The function app in this ARM Template consists of the following HERE Location Service APIs:
 
-**Geocoding and Search**
-
   -	Geocoder: Forward and Reverse
   -	Batch Geocoder
   -	Geocoder Autocomplete
   -	Places
-  
-**Maps**
-
   -	Map Image
   -	Map Tile
-   
-**Navigation and Routing**
-
   - Routing - Mode (car, truck, public transit, bicycle) and algorithm (matrix, isoline routing)
-
-**Navigation and Routing**
-
-  -	Considering toll costs along a route
-  -	Working with geofences
-  -	Working with custom locations
-  -	Building custom routes
-  -	Integrating advanced HERE data sets
-  -	Route matching GPS traces
-  -	Calculating an optimal sequence of waypoints
-
-**More APIs**
-
   - Positioning - Provides positioning estimates based on global Wi-Fi and Cell coverage, which includes the latitude and longitude of the position with accuracy.
 
 
