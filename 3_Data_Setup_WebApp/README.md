@@ -67,12 +67,7 @@ In this step you will create an Azure Web App to upload the script files. Then y
 
 	  ![HERE Maps & Location Services Data Streams](../Images/3_Goto_Resource.PNG)
 	
-		
-1. In overview tab, find **URL** to access your web-app and save it onto a notepad.
-		
-	![HERE Maps & Location Services Data Streams](../Images/4_OverviewTab.PNG)
-	
-	
+			
 1. In App service search bar type “Advanced Tools”.
 
 1. Click on **Advanced Tool** under **Development Tools** section.
@@ -144,11 +139,9 @@ In this step you will configure your Azure Web App with Azure cosmos DB to run t
 
 1. Click on **Save** button to save the file & Close the tab 
 
-1. Go to Azure Portal home page.
+1. Go back to your Web App
 
-1. Click on App Services on the left hand navigation menu.
-    
-1. In App service search bar type “Configuration”.
+1. In App service search bar type “Configuration” on the left hand navigation menu.
 
 1. Click on “Configuration” under “Settings” section.
 
