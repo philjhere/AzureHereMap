@@ -24,8 +24,8 @@ The function app in this ARM Template consists of the following HERE Location Se
 
 ## Deployment Guide
 
-  1.  Acquiring HERE App ID and HERE App Code
-  2.  Deploying Solution Template on Azure Portal
+  1.  Acquiring HERE App ID and HERE App Code.
+  2.  Deploying Solution Template on Azure Portal.
   
 ## 1. Acquiring HERE App ID and HERE App Code
 
@@ -79,7 +79,7 @@ The below steps help you deploy HERE Maps & Locations Services Data Streams Temp
 
 	![Template Deployment Page – Summary Section](../Images/8_TemplateDeploymentPage–SummarySection.png)
 	
-1. Review the master agreement and click the check box at the bottom of agreement. You are now ready for template deployment. Click on **Create** to start template deployment..
+1. Review the master agreement and click the check box at the bottom of agreement. You are now ready for template deployment. Click on **Create** to start template deployment.
 
 	![Template Deployment Page – Create/Buy Section](../Images/9_TemplateDeploymentPage–CreateBuySection.png)
 	
@@ -110,11 +110,11 @@ In this step you will find the connection string details of Event Hub & Cosmos D
 
 	![HERE Maps & Locations Services Data Streams Azure Portal Page](../Images/12_ResourceSelection.PNG)
 	
-1. Select the Azure **Cosmos DB** from the list
+1. Select the Azure **Cosmos DB** from the list.
 
 	![Template Deployment Page -  Basic Section](../Images/13_ResourceSelection_CosmosDB.PNG)
 	
-1. In the selected **Azure Cosmos DB account** page select **Keys** from left hand menu under **Settings**
+1. In the selected **Azure Cosmos DB account** page select **Keys** from left hand menu under **Settings**.
 
 	![Template Deployment Page – HERE Credentials Section](../Images/14_ResourceSelection_CosmosDB_Keys.png)
 	
@@ -129,11 +129,11 @@ In this step you will find the connection string details of Event Hub & Cosmos D
 
 	![HERE Maps & Location Services Data Streams Template Deployed](../Images/15_ResourceSelection_EventHub.PNG)
 	
-1. Select **Event Hubs** from the list
+1. Select **Event Hubs** from the list.
 
 		
 	
-1. On the **Event Hubs Namespace** page, select **Shared Access Policies** on the left hand menu
+1. On the **Event Hubs Namespace** page, select **Shared Access Policies** from the left hand menu.
 
 	![HERE Maps & Location Services Data Streams Template Deployed](../Images/16_ResourceSelection_EventHub_SAP.png)
 
