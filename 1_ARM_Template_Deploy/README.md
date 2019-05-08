@@ -106,43 +106,43 @@ In this step you will find the connection string details of Event Hub & Cosmos D
 
 	![HERE Maps & Location Services Data Streams Pricing Page](../Images/11_ResourceGroup_ResourceList.PNG)
 
-1. You will be abel to see the list of resources which were created using **ARM template**.
+1. You will be abel to see the list of resources which were created as part of deployment of **ARM template**.
 
 	![HERE Maps & Locations Services Data Streams Azure Portal Page](../Images/12_ResourceSelection.PNG)
 	
-1. Select Azure **Cosmos DB** in the list
+1. Select the Azure **Cosmos DB** from the list
 
 	![Template Deployment Page -  Basic Section](../Images/13_ResourceSelection_CosmosDB.PNG)
 	
-1. In the selected **Azure Cosmos DB account** page select **Keys** in left menu under **Settings**
+1. In the selected **Azure Cosmos DB account** page select **Keys** from left hand menu under **Settings**
 
 	![Template Deployment Page – HERE Credentials Section](../Images/14_ResourceSelection_CosmosDB_Keys.png)
 	
 		
-1. Copy the **URI** & **Primary Key** and note that in a text editor to use in upcoming modules.
+1. Copy the **URI** & **Primary Key** and note that in a text editor. These values will be used in configuration in upcoming modules.
 
 	
-1. Now go back to the **Resource groups** on the left navigational menu to get **Event Hub** Connection String details.
+1. Now go back to the **Resource groups** on the left hand navigational menu to get **Event Hub** Connection String details.
 
 	
 1. Select the **Resource group** which you used to deploy the **ARM Template** in the previous step .
 
 	![HERE Maps & Location Services Data Streams Template Deployed](../Images/15_ResourceSelection_EventHub.PNG)
 	
-1. Select **Event Hubs** in the list
+1. Select **Event Hubs** from the list
 
 		
 	
-1. On the **Event Hubs Namespace** page, select **Shared Access Policies** on the left menu
+1. On the **Event Hubs Namespace** page, select **Shared Access Policies** on the left hand menu
 
 	![HERE Maps & Location Services Data Streams Template Deployed](../Images/16_ResourceSelection_EventHub_SAP.png)
 
-1. Select a **shared access policy** in the list of policies. The default one is named: **RootManageSharedAccessPolicy**. You can add a policy with appropriate permissions (read, write), and use that policy
+1. Select a **shared access policy** in the list of policies. The default one is named: **RootManageSharedAccessPolicy**. You can add a policy with appropriate permissions (read, write), and use that policy as well.
 
 	![HERE Maps & Location Services Data Streams Template Deployed](../Images/17_ResourceSelection_EventHub_RT.png)	
 
 
-1. Select the **copy** button next to the **Connection string-primary key** field. Copy this key and note that in a text editor to use in upcoming modules.
+1. Select the **copy** button next to the **Connection string-primary key** field. Copy this key and note that in a text editor.This value will be used in configuration in upcoming modules.
 
 	![HERE Maps & Location Services Data Streams Template Deployed](../Images/18_ResourceSelection_EventHub_Key.png)	
 
