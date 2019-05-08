@@ -2,9 +2,11 @@
 
 In this module, you are going to access the Azure Web App to view the dashboard which we have created in the previous module. You will be able to access two seperate Dashboards, one to track the Fleet movement and another one to view the engine health parameters.
 
-### Implementation
+## Prerequisite
 
 In our previous modules we have created a Web App. We assume that you have completed all the previous modules successfully. In this module you are going to execute the producer script to generate the data. You will then view the fleet movement of the vehicles on the dashboard by running the Azure web app.
+
+### Implementation
 
 ## 1. Steps to Execute the Producer Script
 

@@ -9,14 +9,15 @@ In this module, you’ll deploy a dashboard to plot trucks on a map and watch th
 
 In this module you will deploy an Azure Web App that creates a dashboard to monitor your virtual fleet of trucks in real time. In our previous module we deployed a producer script, which sends data to the Azure Cosmos DB. Using this web application we will fetch and interpret the data from the Cosmos DB and then we will plot a map with realtime updates.
 
-
-## Implementation
+## Prerequisite
 
 In our previous modules we have created and configured the Azure Event Hub and Cosmos DB to process our realtime information. We assume that you have completed the previous modules successfully. In this module you are going to create a Web App and deploy (FTP) the dashboard script to fetch the records from the Cosmos DB.
 
+## Implementation
+
 ## 1. Data Setup for Web App
 
-Download the script files from the link below. Next we will walk you through configuring the script to connect the dashboards to Cosmos DB. This web application code will plot the dashboard for the Trucks in real time and it will also plot the line graph dashboard for the engine details.
+Download the script files from the link below. Next we will walk you through configuring the script to connect the dashboards to Cosmos DB. This web application code will plot the dashboard for the trucks in near real time and it will also plot the line graph dashboard for the engine details.
 
 <details>
 <summary><strong>Step-by-step instructions (expand for details)</strong></summary><p>
