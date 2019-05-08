@@ -70,10 +70,12 @@ In this step you will create an Azure Web App to upload the script files. Then y
 			
 1. In App service search bar type “Advanced Tools”.
 
+	  ![HERE Maps & Location Services Data Streams](../Images/5.png)
+
 1. Click on **Advanced Tool** under **Development Tools** section.
 
 
-	![HERE Maps & Location Services Data Streams](../Images/5_KuduTool.PNG)
+	 ![HERE Maps & Location Services Data Streams](../Images/5_KuduTool.PNG)
     
   
 1. Click on **Go** -> it will open in a new tab.
