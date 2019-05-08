@@ -1,6 +1,6 @@
 # Workshop Cleanup
 
-This module provides instructions for cleaning up the resources created during the preceding modules.
+This module provides instructions for cleaning up of the resources created during the workshop.
 
 ### 1. Resource Group Cleanup Instructions
 
@@ -14,12 +14,12 @@ This module provides instructions for cleaning up the resources created during t
 
     ![HERE Maps & Location Services Data Streams Workshop CleanUP](../Images/1_AzureHome_CloudShell.png)
 
-1. You will be able to see the list of resources part of this resource group. 
+1. You will be able to see the list of resources part of this resource group.
 
-1. Click on “Delete resource group” to delete all the resources. 
+1. Click on “Delete resource group” to delete all the resources.
 
     ![HERE Maps & Location Services Data Streams Workshop CleanUP](../Images/0_DeleteResourceGroup_List.png)
-    
+
 1. You will receive a prompt to confirm deletion of resources. Enter the Resource group name in the text box then click the delete button.
 
     ![HERE Maps & Location Services Data Streams Workshop CleanUP](../Images/1_DeleteResourceGroup_List_Conformation.png)
@@ -49,14 +49,5 @@ Delete the AWS Producer files in Powershell.
            >rm -r Producer
 
 1. Enter the below command to clean-up the Producer ZIP file
-           
+
            >rm Producer.zip
-
-  
-
-
-
-
-
-
-
