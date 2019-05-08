@@ -3,11 +3,11 @@
 
 ## Introduction
 
-In this module, you’ll create a dashboard to plot Trucks on the map and watch their status in real-time and you will be able to plot the Line graph dashboard to analyze the various parameters of the Truck in real-time like Engine Temperature, Engine RPM, Engine Load and Coolant Temperature.
+In this module, you’ll create a dashboard to plot Trucks on the map and watch their status in real-time. Also you will be able to plot the Line graph dashboard to analyze the various parameters of the Truck in real-time like Engine Temperature, Engine RPM, Engine Load and Coolant Temperature.
 
 ## Overview
 
-In this module you will create Azure Web App to plot the dashboard to monitor the trucks in real time. In our previous module we have developed producer, it sends the data to the Azure Cosmos DB. Using this WebApp we will fetch/read the data from the Cosmos DB and we will plot the Map based dashboard and Line Graph dashboard. 
+In this module you will create Azure Web App to plot the dashboard to monitor the trucks in real time. In our previous module we have developed producer, which will send the data to the Azure Cosmos DB. Using this WebApp we will fetch/read the data from the Cosmos DB and we will plot the Map based dashboard and Graphical dashboard. 
 
 
 ## Implementation
@@ -16,7 +16,7 @@ In our previous modules we have created and configured Event hub and Cosmos DB. 
   
 ## 1. Data Setup for Web App
 
-In this step you will download the script files from the link. In the next step you need to do the required configuration to get connected to Cosmos DB. This script file will plot the dashboard for the Trucks in real time and it will also plot the line graph dashboard for Engine Temperature, Engine RPM, Engine Load & Coolant Temperature details of the Truck.
+In this step you will download the script files from the link. In the next step you need to do the required configuration to connect dashboards to Cosmos DB. This webapp code will plot the dashboard for the Trucks in real time and it will also plot the line graph dashboard for Engine Temperature, Engine RPM, Engine Load & Coolant Temperature details of the Vehicles.
 
 <details>
 <summary><strong>Step-by-step instructions (expand for details)</strong></summary><p>
@@ -37,51 +37,51 @@ In this step you will create an Azure Web App to upload the script files. Then y
 <details>
 <summary><strong>Step-by-step instructions (expand for details)</strong></summary><p>
  
-1. Go to **Azure Portal** home page
+1. Go to **Azure Portal** home page.
 
 1. Click **Create a Resource** on the top left. Enter **web app** in the search box to get the required resource type and hit Enter.
 
 	  ![HERE Maps & Location Services Data Streams](../Images/0_WebAppSearch.png)
 
-1. Select **Web App** from the search results and click **Create** button
+1. Select **Web App** from the search results and click **Create** button.
 
 	  ![HERE Maps & Location Services Data Streams](../Images/1_WebAppSearchResult.png)
 	
 	
-1. It will be asked to provide some basic information for this App:
-    1. Project details tab, select your **subscription** and the use the same **resource group** which you used in the previous modules
+1. You need to provide some basic information for this App:
+    1. Project details tab, select your **subscription** and the use the same **resource group** which you used in the previous modules.
     
     2. In the Instance details, the first box is the **name** of your app. Use unique and qualified name like **fleetdashboard**.
     
     3. Select **Run-Time Stack** as **Node 8.0** and select **Runtime** as **windows**
     
-    4. Leave the other parameters as default
+    4. Leave the other parameters as default.
 
-1. Click on **Review & Create**, it will validate the details 
+1. Click on **Review & Create**, it will validate the details. 
 
 	  ![HERE Maps & Location Services Data Streams](../Images/2_WebApp_Create.PNG)
 		
-1. Click on **Create**, It may take more than a minute for deployment
+1. Click on **Create**, it may take more than a minute for deployment to complete.
 	
-1. After successful deployment, Click on **Go to resource**
+1. After successful deployment, Click on **Go to resource**.
 
 	  ![HERE Maps & Location Services Data Streams](../Images/3_Goto_Resource.PNG)
 	
 		
-1. In overview tab, find **URL** to access your web-app
+1. In overview tab, find **URL** to access your web-app and save it onto a notepad.
 		
 	![HERE Maps & Location Services Data Streams](../Images/4_OverviewTab.PNG)
 	
 	
-1. In App service search bar type “Advanced Tools” 
+1. In App service search bar type “Advanced Tools”.
 
-1. Click on **Advanced Tool** under **Development Tools** section
+1. Click on **Advanced Tool** under **Development Tools** section.
 
 
 	![HERE Maps & Location Services Data Streams](../Images/5_KuduTool.PNG)
     
   
-1. Click on **Go** -> it opens up in the new tab
+1. Click on **Go** -> it will open in a new tab.
 
 1. In menu select **Zip Push Deploy** under **Tools**
 
