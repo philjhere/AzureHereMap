@@ -40,15 +40,17 @@ To obtain the credentials for the deployment of HERE Maps & Location Services Da
  
 1. Provide your basic details and register your HERE account
 
-1. After successful registration
+1. After successful registration, It opens up the home page
+
+	![HERE Registration Page](../Images/0_Registeration_Home.png)
 
 1. Go to => Get your credentials: click on Generate App ID & App Code
 
-	![HERE Registration Page](../Images/3_HEREMaps&LocationsServicesDataStreamsAzurePortalPage.png)
+	![HERE Registration Page](../Images/1_Generate_AppID.png)
 	
 1. It will generate your App ID & App Code. It may take few seconds to generate your credientials
 
-	![HERE Registration Page](../Images/3_HEREMaps&LocationsServicesDataStreamsAzurePortalPage.png)
+	![HERE Registration Page](../Images/2_Generate_AppID_Appcode.png)
 
 1. Note/save your APP ID & APP CODE to use in upcoming modules
 	
