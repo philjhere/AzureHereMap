@@ -52,17 +52,17 @@ In our previous modules we have created a Web App. We assume that you have compl
 <details>
 <summary><strong>Step-by-step instructions (expand for details)</strong></summary><p>
 
-1. Open the browser tab and enter the Web App URL which you copied/saved in the previous module. It will be similar to the below format.
+1. Open the browser tab and enter the **Web App URL** which you copied/saved in the previous module. It will be similar to the below format.
 
  		Eg: https://fleetdashboard.azurewebsites.net
 
-1. You should now be able to see the Map dashboard. Based on your truck count defined for the Producer script, the Truck icons will be displayed on the Map.
+1. You should now be able to see the **Map dashboard**. Based on your truck count defined for the Producer script, the Truck icons will be displayed on the Map.
 
 1. You should be able to see simulated movement of the vehicles on the dashboard.
 
   	![HERE Maps & Location Services Data Streams](../Images/3_DashboardOutput.PNG)
 
-1. To access the Line Graph dashboard, change your webbrowsers path by adding "/graph" to the URL.
+1. To access the **Line Graph dashboard**, change your web browser's path by adding "/graph" to the URL.
 
               Eg: https://fleetdashboard.azurewebsites.net/graph
 
@@ -73,7 +73,7 @@ In our previous modules we have created a Web App. We assume that you have compl
 
     ![HERE Maps & Location Services Data Streams](../Images/5_DashboardOutput_Graph_Select.PNG)
 
-1. Click on the textbox to select the vehicle.
+1. Click on the text box to select the vehicle.
 
     ![HERE Maps & Location Services Data Streams](../Images/6_DashboardOutput_Graph_Select.png)
 
@@ -90,7 +90,9 @@ In our previous modules we have created a Web App. We assume that you have compl
 
 
 
-Congratulations you have successfully completed the workshop!
+**Congratulations** you have successfully completed the workshop!
+
+After you have completed the workshop you can delete all of the resources that were created by following the [cleanup guide][cleanup].
 
 After you have completed this workshop, be sure you delete all of the resources that were created by following the [cleanup guide][cleanup].
 

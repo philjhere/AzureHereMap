@@ -97,7 +97,7 @@ Now, we will upload the dashboard script files to Azure. Then we will walk you t
 
 	![HERE Maps & Location Services Data Streams](../Images/8_KuduTool_ZIP_Extracting.png)
 
-1. Once extraction is completed, you will be able to see all the files and on the console you will get the log “Deployment Successful”
+1. Once extraction is completed, you will be able to see all the files and on the console you will see a log message **"Deployment Successful”**.
 
   	![HERE Maps & Location Services Data Streams](../Images/9_KuduTool_ZIP_Deploy_Success.png)
 
@@ -111,7 +111,7 @@ In this step you will configure your Azure Web App with Azure cosmos DB to run t
 <details>
 <summary><strong>Step-by-step instructions (expand for details)</strong></summary><p>
 
-1. Now we are going to make configuration changes. We need to configure Azure Cosmos DB so that dashboard is able to read the data.
+1. Now we are going to make configuration changes. We need to configure Azure Cosmos DB so that the dashboard is able to fetch the data.
 
 
 1. Select the file **config.js** click the **Edit** icon (pen icon)
@@ -144,16 +144,16 @@ In this step you will configure your Azure Web App with Azure cosmos DB to run t
 
 1. In App service search bar type “Configuration” on the left hand navigation menu.
 
-1. Click on “Configuration” under “Settings” section.
+1. Click on **Configuration** under **Settings** section.
 
 	![HERE Maps & Location Services Data Streams](../Images/0_Configuration_Setting.PNG)
 
 
-1. Click on “New application setting”.
+1. Click on **New application setting**.
 
 	![HERE Maps & Location Services Data Streams](../Images/1_Application_APP_Setting.PNG)
 
-1. In “Add/Edit application setting” add in Name as “WEBSITE_NODE_DEFAULT_VERSION” and Value as “8.9.0”, then click “update”. Click on “save” button to save the changes.
+1. In “Add/Edit application setting” add in **Name** as “**WEBSITE_NODE_DEFAULT_VERSION**” and Value as “**8.9.0**”, then click “**update**”. Click on “**save**” button to save the changes.
 
             Name: WEBSITE_NODE_DEFAULT_VERSION
             Value: 8.9.0

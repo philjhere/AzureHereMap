@@ -34,7 +34,7 @@ In this step you will download the script files from the link below and then we 
  1. Download the zip file (Producer.zip) and save it on your local machine.
 
 
-1. Open Azure Portal home page and login with your credentials.
+1. Open **Azure Portal** home page and login with your credentials.
 
 
 1. Click on **Cloud Shell** to open the Azure PowerShell command-line.
@@ -109,13 +109,13 @@ In this step you will configure the Azure Event Hub and Azure Cosmos DB connecti
 
 	![HERE Maps & Location Services Data Streams](../Images/8_SaveConfiguration&CloseEditor.png)
 
-1. Now back in to PowerShell execute the below command in the command window to install the dependencies.
+1. Now back in to **PowerShell** execute the below command in the command window to install the dependencies.
 
 		>npm install
 
 	![HERE Maps & Location Services Data Streams](../Images/9_ExecuteNPMinstall.png)
 
-1. Your Data setup for Producer has been completed successfully.
+1. Your Data setup for the Producer script has been completed successfully.
 
 
 </p></details>		
