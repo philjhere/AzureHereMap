@@ -36,7 +36,7 @@ To obtain the credentials for the deployment of HERE Maps & Location Services Da
 <details>
 <summary><strong>Step-by-step instructions (expand for details)</strong></summary><p>
 	
-1. Go to this [link](https://developer.here.com/?create=Freemium-Basic&keepState=true&step=account) to register for FREE with HERE.
+1. Go to this [link](https://developer.here.com/?create=Freemium-Basic&keepState=true&step=account) to register for FREE with HERE account.
  
 1. Provide your basic details and register your HERE account
 
@@ -44,15 +44,15 @@ To obtain the credentials for the deployment of HERE Maps & Location Services Da
 
 	![HERE Registration Page](../Images/0_Registeration_Home.png)
 
-1. Go to => Get your credentials: click on Generate App ID & App Code
+1. Go to => Get your credentials: click on **Generate App ID & App Code**
 
 	![HERE Registration Page](../Images/1_Generate_AppID.png)
 	
-1. It will generate your App ID & App Code. It may take few seconds to generate your credientials
+1. It will generate your **App ID & App Code**. It may take few seconds to generate your credientials
 
 	![HERE Registration Page](../Images/2_Generate_AppID_Appcode.png)
 
-1. Note/save your APP ID & APP CODE to use in upcoming modules
+1. Note/save your **APP ID & APP CODE** to use in upcoming modules
 	
 
 </p></details>
