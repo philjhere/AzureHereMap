@@ -50,17 +50,17 @@ In our previous modules we have created Web App. We assume that you have complet
 <details>
 <summary><strong>Step-by-step instructions (expand for details)</strong></summary><p>
 
-1. Open the browser tab and enter the Web App URL which you copied/saved in the previous module. It will be similar to below format. 
+1. Open the browser tab and enter the **Web App URL** which you copied/saved in the previous module. It will be similar to below format. 
 
  		Eg: https://fleetdashboard.azurewebsites.net
 
-1. You should be able to see the Map dashboard. Based on your truck count in the producer script, the Truck icons will be displayed on the Map.
+1. You should be able to see the **Map dashboard**. Based on your truck count in the producer script, the Truck icons will be displayed on the Map.
 
 1. You should be able to see simulated movement of the vehicles on the dashboard.
 
   	![HERE Maps & Location Services Data Streams](../Images/3_DashboardOutput.PNG)
 
-1. To access the Line Graph dashboard, type /graph in the URL and access the same in the web browser. 
+1. To access the **Line Graph dashboard**, type **/graph** in the URL and access the same in the web browser. 
 
               Eg: https://fleetdashboard.azurewebsites.net/graph
               
@@ -71,11 +71,11 @@ In our previous modules we have created Web App. We assume that you have complet
 
     ![HERE Maps & Location Services Data Streams](../Images/5_DashboardOutput_Graph_Select.PNG)
     
-1. Click on textbox to select the vehicle. 
+1. Click on **textbox** to select the vehicle. 
 
     ![HERE Maps & Location Services Data Streams](../Images/6_DashboardOutput_Graph_Select.png)
     
-1. Select the Truck and click on Submit button, it will plot the Line graph of Engine Temperature, Engine RPM, Engine Load and Coolant Temperature.
+1. Select the Truck and click on Submit button, it will plot the Line graph of **Engine Temperature, Engine RPM, Engine Load and Coolant Temperature**.
 
     ![HERE Maps & Location Services Data Streams](../Images/7_LineGraph_DashboardOutput.PNG)
     
@@ -88,7 +88,7 @@ In our previous modules we have created Web App. We assume that you have complet
 
 
 
-Congratulations You have completed the Workshop successfully..!
+**Congratulations** You have completed the Workshop successfully..!
   
 After you have completed the workshop you can delete all of the resources that were created by following the [cleanup guide][cleanup].
 
